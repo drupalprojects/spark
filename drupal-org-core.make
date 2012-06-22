@@ -6,5 +6,6 @@ core = 7.x
 projects[drupal][type] = core
 projects[drupal][version] = 7.14
 
-; Core patches go here, for example:
-projects[drupal][patch][1558548] = http://drupal.org/files/drupal-1558548-4.patch
+; Core patches.
+projects[drupal][patch][1637480] = http://drupal.org/files/1637480-1.patch
+
