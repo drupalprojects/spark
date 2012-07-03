@@ -32,11 +32,5 @@ dependencies[] = entity
 
 ; Required modules (Sparkish)
 dependencies[] = edit
-
-
-; Information added by drupal.org packaging script on 2012-07-03
-version = "7.x-0.1-unstable20"
-core = "7.x"
-project = "webchick_profile"
-datestamp = "1341291440"
+dependencies[] = spark_demo
 
