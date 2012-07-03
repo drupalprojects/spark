@@ -1,5 +1,5 @@
 name = Spark
-description = UX++
+description = Cutting-edge authoring experience improvements for Drupal.
 core = 7.x
 
 ; Required modules (Core)
@@ -27,5 +27,16 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Required modules (Contrib)
-; TODO. :)
+dependencies[] = fape
+dependencies[] = entity
+
+; Required modules (Sparkish)
+dependencies[] = edit
+
+
+; Information added by drupal.org packaging script on 2012-07-03
+version = "7.x-0.1-unstable20"
+core = "7.x"
+project = "webchick_profile"
+datestamp = "1341291440"
 

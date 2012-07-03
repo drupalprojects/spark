@@ -14,16 +14,10 @@ projects[entity][version] = 1.0-rc3
 projects[entity][subdir] = contrib
 projects[entity][type] = module
 
-projects[views][version] = 3.3
-projects[views][subdir] = contrib
-projects[views][type] = module
-
 ; Contributed modules; Sparkish.
-projects[edit][version] = 1.x-dev
+projects[edit][version] = 7.x-1.0-alpha1
 projects[edit][subdir] = contrib
 projects[edit][type] = module
-projects[edit][download][type] = git
-projects[edit][download][branch] = master
 
 projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
