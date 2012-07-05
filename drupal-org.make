@@ -15,13 +15,17 @@ projects[entity][subdir] = contrib
 projects[entity][type] = module
 
 ; Contributed modules; Sparkish.
-projects[edit][version] = 7.x-1.0-alpha1
+projects[edit][version] = 1.0-alpha1
 projects[edit][subdir] = contrib
 projects[edit][type] = module
 
 projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
 projects[fape][type] = module
+
+projects[every_field][version] = 1.x-dev
+projects[every_field][subdir] = contrib
+projects[every_field][type] = module
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
