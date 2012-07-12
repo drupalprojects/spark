@@ -17,8 +17,8 @@ projects[entity][subdir] = contrib
 ; Contributed modules; Sparkish.
 projects[edit][type] = module
 projects[edit][download][type] = git
-projects[edit][download][revision] = 0e44c7bb2b7c40d
-projects[edit][download][branch] = master
+projects[edit][download][revision] = 9e6aa6d25cb33
+projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[fape][type] = module
