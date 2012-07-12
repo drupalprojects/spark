@@ -29,6 +29,11 @@ projects[every_field][version] = 1.x-dev
 projects[every_field][subdir] = contrib
 projects[every_field][type] = module
 
+; Contributed modules; UX++
+projects[module_filter][version] = 1.7
+projects[module_filter][subdir] = contrib
+projects[module_filter][type] = module
+
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 

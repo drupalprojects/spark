@@ -34,3 +34,6 @@ dependencies[] = entity
 dependencies[] = edit
 dependencies[] = spark_demo
 
+; Required modules (UX++)
+dependencies[] = module_filter
+
