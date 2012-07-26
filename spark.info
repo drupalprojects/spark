@@ -33,6 +33,8 @@ dependencies[] = entity
 ; Required modules (Sparkish)
 dependencies[] = edit
 dependencies[] = spark_demo
+dependencies[] = layout
+dependencies[] = panels_ipe
 
 ; Required modules (UX++)
 dependencies[] = module_filter

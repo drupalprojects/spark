@@ -34,6 +34,18 @@ projects[module_filter][type] = module
 projects[module_filter][version] = 1.7
 projects[module_filter][subdir] = contrib
 
+; Contributed modules; Panels
+projects[panels][type] = module
+projects[panels][version] = 3.2
+projects[panels][subdir] = contrib
+; Apply layout settings form submit callback fix needed for layout module.
+projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
+
+; Contributed modules; Layout
+projects[layout][type] = module
+projects[layout][version] = 1.x-dev
+projects[layout][subdir] = contrib
+
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 
