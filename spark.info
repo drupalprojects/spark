@@ -29,12 +29,14 @@ dependencies[] = rdf
 ; Required modules (Contrib)
 dependencies[] = fape
 dependencies[] = entity
-
-; Required modules (Sparkish)
-dependencies[] = edit
-dependencies[] = spark_demo
-dependencies[] = layout
+dependencies[] = libraries
 dependencies[] = panels_ipe
+
+; Required projects (Sparkish)
+dependencies[] = edit
+dependencies[] = ember
+dependencies[] = layout
+dependencies[] = spark_demo
 
 ; Required modules (UX++)
 dependencies[] = module_filter
