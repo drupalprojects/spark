@@ -70,7 +70,7 @@ function spark_install() {
 
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'seven';
+  $admin_theme = 'ember';
   $blocks = array(
     array(
       'module' => 'system',
@@ -427,8 +427,8 @@ function spark_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'seven')
+    ->condition('name', 'ember')
     ->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', 'ember');
   variable_set('node_admin_theme', '1');
 }

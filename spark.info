@@ -34,7 +34,6 @@ dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
 dependencies[] = edit
-dependencies[] = ember
 dependencies[] = layout
 dependencies[] = spark_demo
 
