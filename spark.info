@@ -1,5 +1,6 @@
 name = Spark
 description = Cutting-edge authoring experience improvements for Drupal.
+version = "7.x-1.0-alpha2"
 core = 7.x
 
 ; Required modules (Core)
@@ -26,8 +27,11 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Required modules (Contrib)
-dependencies[] = fape
+dependencies[] = admin
+dependencies[] = admin_tools
 dependencies[] = entity
+dependencies[] = fape
+dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = panels
 dependencies[] = panels_ipe

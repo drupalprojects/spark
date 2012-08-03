@@ -6,6 +6,14 @@ api = 2
 core = 7.x
 
 ; Contributed modules; standard.
+projects[admin][type] = module
+projects[admin][version] = 7.x-2.x
+projects[admin][subdir] = contrib
+
+projects[admin_tools][type] = module
+projects[admin_tools][version] = 7.x-1.1
+projects[admin_tools][subdir] = contrib
+
 projects[ctools][type] = module
 projects[ctools][version] = 1.0
 projects[ctools][subdir] = contrib
@@ -17,6 +25,10 @@ projects[entity][subdir] = contrib
 projects[fape][type] = module
 projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
+
+projects[jquery_update][type] = module
+projects[jquery_update][version] = 7.x-2.2
+projects[jquery_update][subdir] = contrib
 
 projects[libraries][type] = module
 projects[libraries][version] = 2.x-dev
