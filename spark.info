@@ -21,7 +21,6 @@ dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = toolbar
-dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
@@ -30,6 +29,7 @@ dependencies[] = rdf
 dependencies[] = fape
 dependencies[] = entity
 dependencies[] = libraries
+dependencies[] = panels
 dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
