@@ -2,6 +2,8 @@ api = 2
 core = 7.x
 ; Include the definition for how to build Drupal core directly, including patches:
 includes[] = drupal-org-core.make
+; Include contrib modules, themes and libraries;
+includes[] = drupal-org.make
 ; Download the Spark install profile and recursively build all its dependencies:
 projects[spark][type] = profile 
 projects[spark][download][type] = git
