@@ -431,4 +431,9 @@ function spark_install() {
     ->execute();
   variable_set('admin_theme', 'ember');
   variable_set('node_admin_theme', '1');
+  
+  // Set the jQuery version to 1.7.
+  variable_set('jquery_update_compression_type', 'min');
+  variable_set('jquery_update_jquery_cdn', 'none');
+  variable_set('jquery_update_jquery_version', '1.7');
 }
