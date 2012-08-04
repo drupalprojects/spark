@@ -31,7 +31,7 @@ projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
 
 projects[jquery_update][type] = module
-projects[jquery_update][version] = 2.2
+projects[jquery_update][version] = 2.x-dev
 projects[jquery_update][subdir] = contrib
 
 projects[libraries][type] = module
