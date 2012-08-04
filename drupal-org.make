@@ -9,6 +9,10 @@ core = 7.x
 projects[admin][type] = module
 projects[admin][version] = 7.x-2.x
 projects[admin][subdir] = contrib
+; Missing hasOwnProperty check.
+projects[admin][patch][] = "http://drupal.org/files/issues/admin-missing-hasownpropery.patch"
+; Fix a JavaScript bug that keeps the page from loading.
+projects[admin][patch][] = "http://drupal.org/files/1713392_jquery-drilldown-undefined-html_1.patch"
 
 projects[admin_tools][type] = module
 projects[admin_tools][version] = 7.x-1.1
