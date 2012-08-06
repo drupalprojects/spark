@@ -7,4 +7,4 @@ includes[] = drupal-org.make
 ; Download the Spark install profile and recursively build all its dependencies:
 projects[spark][type] = profile 
 projects[spark][download][type] = git
-projects[spark][download][branch] = master
+projects[spark][download][branch] = 7.x-1.x
