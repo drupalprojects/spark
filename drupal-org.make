@@ -52,7 +52,7 @@ projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
 projects[ember][download][type] = git
-projects[ember][download][branch] = master
+projects[ember][download][branch] = 7.x-1.x
 projects[ember][subdir] = contrib
 
 projects[every_field][type] = module
