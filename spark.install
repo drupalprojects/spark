@@ -436,4 +436,28 @@ function spark_install() {
   variable_set('jquery_update_compression_type', 'min');
   variable_set('jquery_update_jquery_cdn', 'none');
   variable_set('jquery_update_jquery_version', '1.7');
+
+  // Configure text formats for Aloha.
+  // Load Filtered HTML.
+  $filtered_html_format = filter_format_load('filtered_html');
+  $filtered_html_format->filters = filter_list_format('filtered_html');
+
+   // Add tags required by Aloha module.
+  $filtered_html_format->filters['filter_html']->settings['allowed_html'] .= ' <br> <p> <b> <i> <img>';
+
+  // Turn on image caption support and make it a higher weight.
+  $filtered_html_format->filters['edit_filter_captioned_image']->status = 1;
+  $filtered_html_format->filters['edit_filter_captioned_image']->weight = 11;
+
+  // @todo: Configure Image Resize Filter.
+  // @todo: Configure Token Filter.
+
+  // Cast everything to an array for filter_format_save(). Ugh.
+  foreach ($filtered_html_format->filters as $id => $filter) {
+    $filtered_html_format->filters[$id] = (array) $filter;
+  }
+  filter_format_save($filtered_html_format);
+
+  // Clear zee cache.
+  filter_formats_reset();
 }

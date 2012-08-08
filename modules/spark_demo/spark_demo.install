@@ -21,7 +21,10 @@ function spark_demo_install() {
   // Title and body.
   $node->title = $t('Welcome to Spark!');
   // @todo: Figure out why it can't deal with links. :\
-  $node->body['und'][0]['value'] = $t('This is a pre-release version of the Spark distribution. In this version, we give to you... the Edit module! This module provides in-line editing capability for a variety of fields: title/body, author submit date, boolean, text, number, and more! Toggle into "Edit" mode up in the toolbar, and try it out on this handy piece of demo content, or create your own!', array('@spark-url' => 'http://drupal.org/project/spark', '@edit-url' => 'http://drupal.org/project/edit'));
+  $node->body['und'][0]['value'] = $t('This is a pre-release version of the <a href="@spark-url">Spark distribution</a>.
+
+In this version, we give to you... the Edit module! This module provides in-line editing capability for a variety of fields: title/body, author submit date, boolean, text, number, and more! Toggle into "Edit" mode up in the toolbar, and try it out on this handy piece of demo content, or create your own!', array('@spark-url' => 'http://drupal.org/project/spark', '@edit-url' => 'http://drupal.org/project/edit'));
+  $node->body['und'][0]['format'] = 'filtered_html';
 
   // Boolean.
   $node->every_field_list_boolean['und'][0]['value'] = 1;
