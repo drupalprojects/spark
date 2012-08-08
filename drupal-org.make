@@ -34,6 +34,10 @@ projects[jquery_update][type] = module
 projects[jquery_update][version] = 2.x-dev
 projects[jquery_update][subdir] = contrib
 
+projects[json2][type] = module
+projects[json2][version] = 1.0
+projects[json2][subdir] = contrib
+
 projects[libraries][type] = module
 projects[libraries][version] = 2.x-dev
 projects[libraries][subdir] = contrib
