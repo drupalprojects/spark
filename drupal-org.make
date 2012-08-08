@@ -91,3 +91,7 @@ libraries[alohaeditor][patch][1702248] = http://drupal.org/files/1702248-9.patch
 libraries[alohaeditor][patch][1702248-pull-request-642] = http://drupal.org/files/1702248-pull_request_642-9.patch
 libraries[alohaeditor][patch][1702248-pull-request-643] = http://drupal.org/files/1702248-pull_request_643-6.patch
 libraries[alohaeditor][patch][1718336] = http://drupal.org/files/1718336-5.patch
+
+libraries[JSON-js][download][type] = get
+libraries[JSON-js][download][url] = https://github.com/douglascrockford/JSON-js/blob/master/json2.js
+libraries[JSON-js][revision] = fc535e9cc8fa78bbf45a85835c830e7f799a5084
