@@ -83,7 +83,7 @@ projects[module_filter][subdir] = contrib
 
 libraries[alohaeditor][download][type] = get
 libraries[alohaeditor][download][url] = http://archiva.gentics.com:8081/archiva/repository/com.gentics.public/org/alohaeditor/alohaeditor/0.21.1/alohaeditor-0.21.1-cdn.zip
-libraries[alohaeditor][patch][] = http://drupal.org/files/1702248-9.patch
-libraries[alohaeditor][patch][] = http://drupal.org/files/1702248-pull_request_642-9.patch
-libraries[alohaeditor][patch][] = http://drupal.org/files/1702248-pull_request_643-6.patch
-libraries[alohaeditor][patch][] = http://drupal.org/files/1718336-5.patch
+libraries[alohaeditor][patch][1702248] = http://drupal.org/files/1702248-9.patch
+libraries[alohaeditor][patch][1702248-pull-request-642] = http://drupal.org/files/1702248-pull_request_642-9.patch
+libraries[alohaeditor][patch][1702248-pull-request-643] = http://drupal.org/files/1702248-pull_request_643-6.patch
+libraries[alohaeditor][patch][1718336] = http://drupal.org/files/1718336-5.patch
