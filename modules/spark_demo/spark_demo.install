@@ -20,10 +20,31 @@ function spark_demo_install() {
 
   // Title and body.
   $node->title = $t('Welcome to Spark!');
-  // @todo: Figure out why it can't deal with links. :\
-  $node->body['und'][0]['value'] = $t('This is a pre-release version of the <a href="@spark-url">Spark distribution</a>.
+  $node->body['und'][0]['value'] = $t('Welcome to a pre-release version of the <a href="@spark-project-url">Spark distribution</a>! Our goal is to greatly improve the authoring experience of Drupal, through a Drupal 7 distirbution that can be used today, but can also be proposed as Drupal 8 core improvements for tomorrow. You can read more about it at <a href="@spark-announce-url">the official announcement</a> or at <a href="@spark-microsite-url">www.sparkdrupal.com</a>. Read on for more info!
 
-In this version, we give to you... the Edit module! This module provides in-line editing capability for a variety of fields: title/body, author submit date, boolean, text, number, and more! Toggle into "Edit" mode up in the toolbar, and try it out on this handy piece of demo content, or create your own!', array('@spark-url' => 'http://drupal.org/project/spark', '@edit-url' => 'http://drupal.org/project/edit'));
+<img src="http://drupal.org/files/imagecache/grid-3/project-images/spark_logo.png" alt="Spark Logo" data-caption="The Spark logo, complete with a lovely image caption. Go into Edit mode and drag it! We dare you!" data-align="right">
+
+Please take a look around! Within, you will find such nifty features as:
+
+<ul>
+  <li><strong>Inline Editing</strong>, courtesy of <a href="@module-edit-url">Edit module</a>. Simply click into this node, log in as an admin, then switch the "View / Edit" toggle in the toolbar to "Edit" mode, and from there you can click directly into any field to edit its contents. Including this one! For fancier fields like boolean and multivalue, you get just edit the form field directly. Try it out!</li>
+  <li><strong>"True" WYSIWYG</strong>, courtesy of <a href="@aloha-url">Aloha Editor</a>. Edit your rich text with your theme\'s direct styling through the inline editor. It even works with images + captions, like our spiffy logo! We\'re still working on the toolbar to make it more awesomer, but you can click around to try out what we have so far. :)</li>
+  <li><strong>Responsive Layout Builder</strong>, courtesy of the <a href="@module-layout-url">Layout</a> and <a href="@module-grid-url">Gridbuilder</a> modules. It layers on top of Panels (though is architected so it could work on other layout solutions as well). If you want to try it, as an admin go to <a href="@admin-layout-url">Structure &gt; Panels &gt; Custom Layout</a>.</li>
+  <li><strong>New admin theme</strong>, brought to you by <a href="@theme-ember-url">Ember</a>. This brings some nice light styling on Drupal core\'s Seven admin theme as well as a mobile-friendly toolbar courtesy of the Admin module.</li>
+</ul>
+
+We hope you enjoy playing with Spark! We greatly welcome collaboration; join us in the <a href="@spark-issues-url">issue queue</a>!', array(
+  '@spark-project-url' => 'http://drupal.org/project/spark',
+  '@spark-announce-url' => 'http://buytaert.net/announcing-spark-authoring-improvements-for-drupal-7-and-drupal-8',
+  '@spark-microsite-url' => 'http://www.sparkdrupal.com/',
+  '@spark-issues-url' => 'http://drupal.org/project/issues/spark',
+  '@module-edit-url' => 'http://drupal.org/project/edit',
+  '@module-layout-url' => 'http://drupal.org/project/layout',
+  '@module-grid-url' => 'http://drupal.org/project/gridbuilder',
+  '@theme-ember-url' => 'http://drupal.org/project/ember',
+  '@aloha-url' => 'http://aloha-editor.org/',
+  '@admin-layout-url' => url('admin/structure/panels/layouts/list/default/edit'),
+));
   $node->body['und'][0]['format'] = 'filtered_html';
 
   // Boolean.
