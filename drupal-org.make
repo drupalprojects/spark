@@ -44,6 +44,10 @@ projects[panels][subdir] = contrib
 ; Apply layout settings form submit callback fix needed for layout module.
 projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
 
+projects[resp_img][type] = module
+projects[resp_img][version] = 1.3
+projects[resp_img][subdir] = contrib
+
 ; Contributed projects; Sparkish.
 projects[edit][type] = module
 projects[edit][download][type] = git
