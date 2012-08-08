@@ -82,3 +82,4 @@ libraries[alohaeditor][download][url] = http://archiva.gentics.com:8081/archiva/
 libraries[alohaeditor][patch][] = http://drupal.org/files/1702248-9.patch
 libraries[alohaeditor][patch][] = http://drupal.org/files/1702248-pull_request_642-9.patch
 libraries[alohaeditor][patch][] = http://drupal.org/files/1702248-pull_request_643-6.patch
+libraries[alohaeditor][patch][] = http://drupal.org/files/1718336-5.patch
