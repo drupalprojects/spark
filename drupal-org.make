@@ -54,13 +54,17 @@ projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[edit][type] = module
-projects[edit][download][type] = git
-projects[edit][download][branch] = 7.x-1.x
+projects[edit][version] = 1.0-alpha2
+; @todo Commenting this out for now, will need it again when we go back to dev.
+;projects[edit][download][type] = git
+;projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
-projects[ember][download][type] = git
-projects[ember][download][branch] = 7.x-1.x
+projects[ember][version] = 1.0-alpha1
+; @todo Commenting this out for now, will need it again when we go back to dev.
+;projects[ember][download][type] = git
+;projects[ember][download][branch] = 7.x-1.x
 projects[ember][subdir] = contrib
 
 projects[every_field][type] = module
@@ -87,6 +91,7 @@ projects[module_filter][subdir] = contrib
 
 libraries[alohaeditor][download][type] = get
 libraries[alohaeditor][download][url] = https://github.com/downloads/alohaeditor/Aloha-Editor/alohaeditor-0.21.1-cdn.zip
+; @todo: Document what these patches are for.
 libraries[alohaeditor][patch][1702248] = http://drupal.org/files/1702248-9.patch
 libraries[alohaeditor][patch][1702248-pull-request-642] = http://drupal.org/files/1702248-pull_request_642-9.patch
 libraries[alohaeditor][patch][1702248-pull-request-643] = http://drupal.org/files/1702248-pull_request_643-6.patch
