@@ -89,6 +89,9 @@ Completely synergize resource sucking relationships via premier niche markets. P
   // @todo: File/Image.
 
   node_save($node);
+
+  // Set site frontpage to demo page manager page.
+  variable_set('site_frontpage', 'spark-demo-home');
 }
 
 /**
@@ -97,5 +100,5 @@ Completely synergize resource sucking relationships via premier niche markets. P
 function spark_demo_uninstall() {
   // Remove the sample content type and content.
   // @todo: Figure out how to get this to work.
-  //drupal_uninstall_modules(array('every_field'));  
+  //drupal_uninstall_modules(array('every_field'));
 }
