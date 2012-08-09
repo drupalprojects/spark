@@ -32,7 +32,9 @@ dependencies[] = admin_tools
 dependencies[] = entity
 dependencies[] = fape
 dependencies[] = jquery_update
+dependencies[] = json2
 dependencies[] = libraries
+dependencies[] = page_manager
 dependencies[] = panels
 dependencies[] = panels_ipe
 
