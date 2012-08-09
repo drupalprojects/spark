@@ -19,7 +19,7 @@ projects[admin_tools][version] = 1.1
 projects[admin_tools][subdir] = contrib
 
 projects[ctools][type] = module
-projects[ctools][version] = 1.0
+projects[ctools][version] = 1.1
 projects[ctools][subdir] = contrib
 
 projects[entity][type] = module
