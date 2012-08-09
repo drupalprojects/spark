@@ -72,17 +72,15 @@ projects[every_field][version] = 1.x-dev
 projects[every_field][subdir] = contrib
 
 projects[gridbuilder][type] = module
-projects[gridbuilder][version] = 1.0-alpha1
-; @todo Commenting this out for now, will need it again when we go back to dev.
-;projects[gridbuilder][download][type] = git
-;projects[gridbuilder][download][branch] = 7.x-1.x
+; projects[gridbuilder][version] = 1.0-alpha1
+projects[gridbuilder][download][type] = git
+projects[gridbuilder][download][branch] = 7.x-1.x
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
-projects[layout][version] = 1.0-alpha1
-; @todo Commenting this out for now, will need it again when we go back to dev.
-;projects[layout][download][type] = git
-;projects[layout][download][branch] = 7.x-1.x
+; projects[layout][version] = 1.0-alpha1
+projects[layout][download][type] = git
+projects[layout][download][branch] = 7.x-1.x
 projects[layout][subdir] = contrib
 
 ; Contributed modules; UX++
