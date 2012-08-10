@@ -78,9 +78,9 @@ projects[gridbuilder][version] = 1.0-alpha2
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
-; projects[layout][version] = 1.0-alpha1
-projects[layout][download][type] = git
-projects[layout][download][branch] = 7.x-1.x
+projects[layout][version] = 1.0-alpha2
+;projects[layout][download][type] = git
+;projects[layout][download][branch] = 7.x-1.x
 projects[layout][subdir] = contrib
 
 ; Contributed modules; UX++
