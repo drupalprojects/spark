@@ -72,9 +72,9 @@ projects[every_field][version] = 1.x-dev
 projects[every_field][subdir] = contrib
 
 projects[gridbuilder][type] = module
-; projects[gridbuilder][version] = 1.0-alpha1
-projects[gridbuilder][download][type] = git
-projects[gridbuilder][download][branch] = 7.x-1.x
+projects[gridbuilder][version] = 1.0-alpha2
+;projects[gridbuilder][download][type] = git
+;projects[gridbuilder][download][branch] = 7.x-1.x
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
