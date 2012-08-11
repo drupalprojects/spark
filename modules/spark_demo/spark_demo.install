@@ -11,7 +11,7 @@
 function spark_demo_install() {
   $t = get_t();
 
-  // Create a new 'every_field' node.
+  // Create a new 'every_field' node for testing inline editing.
   $node = new stdClass();
   $node->uid = 1;
   $node->type = 'every_field';

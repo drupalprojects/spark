@@ -1,4 +1,5 @@
 name = Spark Demo
 description = Demo content for the Spark distribution.
 core = 7.x
+package = Spark
 dependencies[] = every_field
