@@ -2,6 +2,7 @@ name = Spark
 description = Cutting-edge authoring experience improvements for Drupal.
 version = "7.x-1.0-alpha2"
 core = 7.x
+php = 5.3
 
 ; Required modules (Core)
 ; Copy/pasted from standard.info
