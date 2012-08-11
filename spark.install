@@ -460,4 +460,42 @@ function spark_install() {
 
   // Clear zee cache.
   filter_formats_reset();
+
+  // Create an "About Us" page, for testing content links in Aloha.
+  // @todo: It's really stupid we have to do this here instead of in spark_demo module,
+  // but 'page' doesn't exist yet when spark_demo_install() runs. :(
+  $t = get_t();
+
+  $node = new stdClass();
+  $node->uid = 1;
+  $node->type = 'page';
+  $node->status = 1;
+  $node->title = $t('About Us');
+  $node->body['und'][0]['value'] = $t('Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+
+Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+
+Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.');
+  $node->body['und'][0]['format'] = 'filtered_html';
+  $node->menu = array (
+    'enabled' => 1,
+    'mlid' => 0,
+    'module' => 'menu',
+    'hidden' => 0,
+    'has_children' => 0,
+    'customized' => 0,
+    'options' => 
+    array (
+    ),
+    'expanded' => 0,
+    'parent_depth_limit' => 8,
+    'link_title' => $t('About Us'),
+    'description' => '',
+    'parent' => 'main-menu:0',
+    'weight' => '1',
+    'plid' => '0',
+    'menu_name' => 'main-menu',
+  );
+
+  node_save($node);
 }
