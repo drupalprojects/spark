@@ -183,7 +183,6 @@ function spark_demo_default_page_manager_pages() {
     'admin_paths' => FALSE,
   );
   $page->default_handlers = array();
-
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
@@ -241,7 +240,7 @@ function spark_demo_default_page_manager_pages() {
       'links' => 1,
       'leave_node_title' => 0,
       'identifier' => '',
-      'build_mode' => 'teaser',
+      'build_mode' => 'full',
       'link_node_title' => 1,
       'override_title' => 0,
       'override_title_text' => '',
@@ -384,6 +383,7 @@ function spark_demo_default_page_manager_pages() {
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
 
+  // Do not overwrite me. :)
   $pages['spark_demo_home'] = $page;
 
   return $pages;
