@@ -183,6 +183,7 @@ function spark_demo_default_page_manager_pages() {
     'admin_paths' => FALSE,
   );
   $page->default_handlers = array();
+
   $handler = new stdClass();
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
@@ -335,6 +336,27 @@ function spark_demo_default_page_manager_pages() {
     $display->panels['sidebar_a'][1] = 'new-5';
     $pane = new stdClass();
     $pane->pid = 'new-6';
+    $pane->panel = 'sidebar_a';
+    $pane->type = 'block';
+    $pane->subtype = 'user-login';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $display->content['new-6'] = $pane;
+    $display->panels['sidebar_a'][2] = 'new-6';
+    $pane = new stdClass();
+    $pane->pid = 'new-7';
     $pane->panel = 'title';
     $pane->type = 'page_title';
     $pane->subtype = 'page_title';
@@ -355,12 +377,13 @@ function spark_demo_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-6'] = $pane;
-    $display->panels['title'][0] = 'new-6';
+    $display->content['new-7'] = $pane;
+    $display->panels['title'][0] = 'new-7';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = 'new-6';
+  $display->title_pane = 'new-7';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
+
   $pages['spark_demo_home'] = $page;
 
   return $pages;
