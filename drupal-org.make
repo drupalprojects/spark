@@ -55,7 +55,7 @@ projects[resp_img][subdir] = contrib
 ; Contributed projects; Sparkish.
 projects[edit][type] = module
 projects[edit][download][type] = git
-projects[edit][version] = 1.0-alpha3
+projects[edit][revision] = 1.0-alpha3
 ; @todo Commenting this out for now, will need it again when we go back to dev.
 ;projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
