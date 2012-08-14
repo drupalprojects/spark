@@ -53,6 +53,11 @@ projects[resp_img][version] = 1.3
 projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
+projects[iconfonts][type] = module
+projects[iconfonts][download][type] = git
+projects[iconfonts][download][branch] = 7.x-1.x
+projects[iconfonts][subdir] = contrib
+
 projects[edit][type] = module
 ;projects[edit][version] = 1.0-alpha3
 ; @todo Commenting this out for now, will need it again when we go back to dev.
