@@ -21,8 +21,6 @@ dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
-dependencies[] = shortcut
-dependencies[] = toolbar
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
@@ -41,6 +39,7 @@ dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
 dependencies[] = iconfonts
+dependencies[] = navbar
 dependencies[] = edit
 dependencies[] = edit_aloha
 dependencies[] = gridbuilder
