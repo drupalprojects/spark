@@ -69,7 +69,7 @@ function spark_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'bartik_respondz');
+  $default_theme = variable_get('theme_default', 'responsive_bartik');
   $admin_theme = 'ember';
   $blocks = array(
     array(
