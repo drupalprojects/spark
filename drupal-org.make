@@ -18,10 +18,10 @@ projects[admin_tools][type] = module
 projects[admin_tools][version] = 1.1
 projects[admin_tools][subdir] = contrib
 
-projects[bartik_respondz][type] = theme
-projects[bartik_respondz][download][type] = git
-projects[bartik_respondz][download][branch] = 7.x-1.x
-projects[bartik_respondz][subdir] = contrib
+projects[responsive_bartik][type] = theme
+projects[responsive_bartik][download][type] = git
+projects[responsive_bartik][download][branch] = 7.x-1.x
+projects[responsive_bartik][subdir] = contrib
 
 projects[ctools][type] = module
 projects[ctools][version] = 1.1
