@@ -73,6 +73,7 @@ projects[edit][type] = module
 ; @todo Commenting this out for now, will need it again when we go back to dev.
 projects[edit][download][type] = git
 projects[edit][download][branch] = 7.x-1.x
+projects[edit][download][revision] = 8588e5e
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
@@ -108,13 +109,10 @@ projects[module_filter][subdir] = contrib
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 
-libraries[alohaeditor][download][type] = get
-libraries[alohaeditor][download][url] = https://github.com/downloads/alohaeditor/Aloha-Editor/alohaeditor-0.21.1-cdn.zip
-; @todo: Document what these patches are for.
-libraries[alohaeditor][patch][1702248] = http://drupal.org/files/1702248-9.patch
-libraries[alohaeditor][patch][1702248-pull-request-642] = http://drupal.org/files/1702248-pull_request_642-9.patch
-libraries[alohaeditor][patch][1702248-pull-request-643] = http://drupal.org/files/1702248-pull_request_643-6.patch
-libraries[alohaeditor][patch][1718336] = http://drupal.org/files/1718336-5.patch
+; libraries[alohaeditor][download][type] = get
+; libraries[alohaeditor][download][url] = https://github.com/downloads/alohaeditor/Aloha-Editor/alohaeditor-0.21.1-cdn.zip
+; libraries[alohaeditor][patch][1702248] = http://drupal.org/files/1702248-9.patch
+; libraries[alohaeditor][patch][1702248-pull-request-642] = http://drupal.org/files/1702248-pull_request_642-9.patch
 
 libraries[json2][download][type] = get
 libraries[json2][download][url] = https://github.com/douglascrockford/JSON-js/blob/master/json2.js
