@@ -423,7 +423,7 @@ function spark_install() {
   // Update the menu router information.
   menu_rebuild();
 
-  // Enable the admin theme.
+  // Enable the admin theme and responsive Bartik theme.
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
@@ -431,7 +431,8 @@ function spark_install() {
     ->execute();
   variable_set('admin_theme', 'ember');
   variable_set('node_admin_theme', '1');
-  
+  variable_set('theme_default', 'responsive_bartik');
+
   // Set the jQuery version to 1.7.
   variable_set('jquery_update_compression_type', 'min');
   variable_set('jquery_update_jquery_cdn', 'none');
