@@ -12,6 +12,9 @@
  * @see system_install()
  */
 function spark_install() {
+  theme_enable(array('responsive_bartik'));
+  variable_set('theme_default', 'responsive_bartik');
+
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -69,7 +72,7 @@ function spark_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'responsive_bartik');
+  $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'ember';
   $blocks = array(
     array(
