@@ -54,6 +54,8 @@ projects[panels][version] = 3.3
 projects[panels][subdir] = contrib
 ; Apply layout settings form submit callback fix needed for layout module.
 projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
+; Fix for strict warning on home page.
+projects[panels][patch][1632898] = "http://drupal.org/files/1632898-10.patch"
 
 projects[resp_img][type] = module
 projects[resp_img][version] = 1.3
