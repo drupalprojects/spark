@@ -63,46 +63,44 @@ projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[iconfonts][type] = module
-projects[iconfonts][download][type] = git
-projects[iconfonts][download][branch] = 7.x-1.x
+projects[iconfonts][version] = 1.0-alpha1
+;projects[iconfonts][download][type] = git
+;projects[iconfonts][download][branch] = 7.x-1.x
 projects[iconfonts][subdir] = contrib
 
 projects[navbar][type] = module
-projects[navbar][download][type] = git
-projects[navbar][download][branch] = 7.x-1.x
+projects[navbar][version] = 1.0-alpha1
+;projects[navbar][download][type] = git
+;projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-;projects[edit][version] = 1.0-alpha3
-; @todo Commenting this out for now, will need it again when we go back to dev.
-projects[edit][download][type] = git
-projects[edit][download][branch] = 7.x-1.x
+projects[edit][version] = 1.0-alpha4
+;projects[edit][download][type] = git
+;projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
-;projects[ember][version] = 1.0-alpha2
-; @todo Commenting this out for now, will need it again when we go back to dev.
-projects[ember][download][type] = git
-projects[ember][download][branch] = 7.x-1.x
+projects[ember][version] = 1.0-alpha3
+;projects[ember][download][type] = git
+;projects[ember][download][branch] = 7.x-1.x
 projects[ember][subdir] = contrib
+
+projects[gridbuilder][type] = module
+projects[gridbuilder][version] = 1.0-alpha2
+;projects[gridbuilder][download][type] = git
+;projects[gridbuilder][download][branch] = 7.x-1.x
+projects[gridbuilder][subdir] = contrib
+
+projects[layout][type] = module
+projects[layout][version] = 1.0-alpha3
+;projects[layout][download][type] = git
+;projects[layout][download][branch] = 7.x-1.x
+projects[layout][subdir] = contrib
 
 projects[every_field][type] = module
 projects[every_field][version] = 1.x-dev
 projects[every_field][subdir] = contrib
-
-projects[gridbuilder][type] = module
-;projects[gridbuilder][version] = 1.0-alpha2
-; @todo Commenting this out for now, will need it again when we go back to dev.
-projects[gridbuilder][download][type] = git
-projects[gridbuilder][download][branch] = 7.x-1.x
-projects[gridbuilder][subdir] = contrib
-
-projects[layout][type] = module
-;projects[layout][version] = 1.0-alpha2
-; @todo Commenting this out for now, will need it again when we go back to dev.
-projects[layout][download][type] = git
-projects[layout][download][branch] = 7.x-1.x
-projects[layout][subdir] = contrib
 
 ; Contributed modules; UX++
 projects[module_filter][type] = module
