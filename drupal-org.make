@@ -22,6 +22,8 @@ projects[responsive_bartik][type] = theme
 projects[responsive_bartik][download][type] = git
 projects[responsive_bartik][download][branch] = 7.x-1.x
 projects[responsive_bartik][subdir] = contrib
+; Add attributes to taxonomy override.
+projects[responsive_bartik][patch][1740924] = "http://drupal.org/files/responsive_bartik-taxonomy-attributes.patch"
 
 projects[ctools][type] = module
 projects[ctools][version] = 1.1
