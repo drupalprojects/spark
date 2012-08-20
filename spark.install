@@ -447,7 +447,7 @@ function spark_install() {
   $filtered_html_format->filters = filter_list_format('filtered_html');
 
    // Add tags required by Aloha module.
-  $filtered_html_format->filters['filter_html']->settings['allowed_html'] .= ' <br> <p> <img>';
+  $filtered_html_format->filters['filter_html']->settings['allowed_html'] .= ' <br> <p> <img> <pre>';
 
   // Turn on image caption support and make it a higher weight.
   $filtered_html_format->filters['edit_filter_captioned_image']->status = 1;
