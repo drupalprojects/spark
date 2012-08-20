@@ -75,7 +75,6 @@ projects[edit][type] = module
 ; @todo Commenting this out for now, will need it again when we go back to dev.
 projects[edit][download][type] = git
 projects[edit][download][branch] = 7.x-1.x
-projects[edit][download][revision] = 8588e5e
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
