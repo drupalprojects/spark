@@ -26,7 +26,7 @@ projects[responsive_bartik][subdir] = contrib
 projects[responsive_bartik][patch][1740924] = "http://drupal.org/files/responsive_bartik-taxonomy-attributes.patch"
 
 projects[ctools][type] = module
-projects[ctools][version] = 1.1
+projects[ctools][version] = 1.2
 projects[ctools][subdir] = contrib
 
 projects[entity][type] = module
@@ -42,7 +42,7 @@ projects[jquery_update][version] = 2.x-dev
 projects[jquery_update][subdir] = contrib
 
 projects[json2][type] = module
-projects[json2][version] = 1.0
+projects[json2][version] = 1.1
 projects[json2][subdir] = contrib
 
 projects[libraries][type] = module
@@ -50,7 +50,7 @@ projects[libraries][version] = 2.x-dev
 projects[libraries][subdir] = contrib
 
 projects[panels][type] = module
-projects[panels][version] = 3.2
+projects[panels][version] = 3.3
 projects[panels][subdir] = contrib
 ; Apply layout settings form submit callback fix needed for layout module.
 projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
