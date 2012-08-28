@@ -28,6 +28,8 @@ projects[responsive_bartik][patch][1740924] = "http://drupal.org/files/responsiv
 projects[ctools][type] = module
 projects[ctools][version] = 1.2
 projects[ctools][subdir] = contrib
+; Fix incompatibilities with jQuery 1.7.
+projects[ctools][patch][1494860] = "http://drupal.org/files/ctools-dependent-js-broken-with-jquery-1.7-1494860-30.patch"
 
 projects[entity][type] = module
 projects[entity][version] = 1.0-rc3
