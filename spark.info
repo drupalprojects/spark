@@ -1,6 +1,6 @@
 name = Spark
 description = Cutting-edge authoring experience improvements for Drupal.
-version = "7.x-1.0-alpha2"
+version = "7.x-1.0-alpha5"
 core = 7.x
 php = 5.3
 
@@ -11,6 +11,9 @@ dependencies[] = color
 dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
@@ -18,34 +21,26 @@ dependencies[] = menu
 dependencies[] = number
 dependencies[] = options
 dependencies[] = path
-dependencies[] = taxonomy
-dependencies[] = dblog
-dependencies[] = search
-dependencies[] = field_ui
-dependencies[] = file
 dependencies[] = rdf
+dependencies[] = search
+dependencies[] = taxonomy
 
 ; Required modules (Contrib)
-dependencies[] = admin
-dependencies[] = admin_tools
 dependencies[] = entity
 dependencies[] = fape
 dependencies[] = jquery_update
 dependencies[] = json2
 dependencies[] = libraries
+dependencies[] = module_filter
 dependencies[] = page_manager
 dependencies[] = panels
 dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
-dependencies[] = iconfonts
-dependencies[] = navbar
 dependencies[] = edit
 dependencies[] = edit_aloha
 dependencies[] = gridbuilder
+dependencies[] = iconfonts
 dependencies[] = layout
+dependencies[] = navbar
 dependencies[] = spark_demo
-
-; Required modules (UX++)
-dependencies[] = module_filter
-
