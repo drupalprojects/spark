@@ -66,9 +66,9 @@ projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-projects[edit][version] = 1.0-alpha4
-;projects[edit][download][type] = git
-;projects[edit][download][branch] = 7.x-1.x
+;projects[edit][version] = 1.0-alpha4
+projects[edit][download][type] = git
+projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme

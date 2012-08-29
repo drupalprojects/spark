@@ -23,6 +23,7 @@ dependencies[] = options
 dependencies[] = path
 dependencies[] = rdf
 dependencies[] = search
+dependencies[] = shortcut
 dependencies[] = taxonomy
 
 ; Required modules (Contrib)
