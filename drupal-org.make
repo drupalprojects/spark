@@ -51,6 +51,11 @@ projects[resp_img][version] = 1.3
 projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
+projects[aloha][type] = module
+projects[aloha][download][type] = git
+projects[aloha][download][branch] = 7.x-2.x
+projects[aloha][subdir] = contrib
+
 projects[iconfonts][type] = module
 projects[iconfonts][version] = 1.0-alpha1
 ;projects[iconfonts][download][type] = git
