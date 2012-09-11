@@ -7,10 +7,13 @@ projects[drupal][type] = core
 projects[drupal][version] = 7.15
 
 ; CORE PATCHES
-; Remove the profiles under /profiles, so Spark is the only one. This allows
+; Hide the profiles under /profiles, so Spark is the only one. This allows
 ; the installation to start at the Language selection screen, bypassing a
 ; baffling and silly choice, especially for non-native speakers.
-projects[drupal][patch][1780598] = http://drupal.org/files/drupal-7.16-dev-remove-profiles.patch
+projects[drupal][patch][1780598] = http://drupal.org/files/spark-install-1780598-5.patch
+; This requires a core bug fix to not show the profile selection page when only
+; one profile is visible.
+projects[drupal][patch][1074108] = http://drupal.org/files/1074108-skip-profile-16-7.x-do-not-test.patch
 
 ; Add ability to pass #attributes to the drupal_add_js function.
 projects[drupal][patch][1664602] = http://drupal.org/files/1664602-1.patch
