@@ -4,6 +4,10 @@ version = "7.x-1.0-alpha5"
 core = 7.x
 php = 5.3
 
+; The distribution_name property is used in the installer and other places as
+; a label for the software being installed.
+distribution_name = Spark
+
 ; Required modules (Core)
 ; Copy/pasted from standard.info
 dependencies[] = block
