@@ -29,15 +29,13 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Required modules (Contrib)
-dependencies[] = entity
-dependencies[] = fape
-dependencies[] = jquery_update
-dependencies[] = json2
+;dependencies[] = fape
+;dependencies[] = json2
 dependencies[] = libraries
-dependencies[] = module_filter
+;dependencies[] = module_filter
 dependencies[] = page_manager
-dependencies[] = panels
-dependencies[] = panels_ipe
+;dependencies[] = panels
+;dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
 dependencies[] = aloha
@@ -48,5 +46,5 @@ dependencies[] = aloha
 dependencies[] = gridbuilder
 dependencies[] = iconfonts
 dependencies[] = layout
-dependencies[] = navbar
-dependencies[] = spark_demo
+;dependencies[] = navbar
+;dependencies[] = spark_demo
