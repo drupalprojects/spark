@@ -3,7 +3,7 @@
 ; See http://drupal.org/node/159730 for more details.
 
 api = 2
-core = 7.x
+core = 8.x
 
 ; Contributed modules; standard.
 

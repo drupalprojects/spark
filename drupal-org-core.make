@@ -2,9 +2,8 @@
 ; if we need to.
 
 api = 2
-core = 7.x
+core = 8.x
 projects[drupal][type] = core
-projects[drupal][version] = 7.15
 
 ; CORE PATCHES
 ; Hide the profiles under /profiles, so Spark is the only one. This allows
