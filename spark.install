@@ -12,8 +12,8 @@
  * @see system_install()
  */
 function spark_install() {
-  theme_enable(array('responsive_bartik'));
-  variable_set('theme_default', 'responsive_bartik');
+  theme_enable(array('bartik'));
+  variable_set('theme_default', 'bartik');
 
   // Add text formats.
   $filtered_html_format = array(
@@ -73,7 +73,7 @@ function spark_install() {
 
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'ember';
+  $admin_theme = 'seven';
   $blocks = array(
     array(
       'module' => 'system',
@@ -172,26 +172,6 @@ function spark_install() {
       'status' => 1,
       'weight' => 10,
       'region' => 'content',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'user',
-      'delta' => 'new',
-      'theme' => $admin_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'dashboard_sidebar',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'search',
-      'delta' => 'form',
-      'theme' => $admin_theme,
-      'status' => 1,
-      'weight' => -10,
-      'region' => 'dashboard_sidebar',
       'pages' => '',
       'cache' => -1,
     ),
@@ -426,20 +406,15 @@ function spark_install() {
   // Update the menu router information.
   menu_rebuild();
 
-  // Enable the admin theme and responsive Bartik theme.
+  // Enable the admin theme and Bartik theme.
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
     ->condition('name', 'ember')
     ->execute();
-  variable_set('admin_theme', 'ember');
+  variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
-  variable_set('theme_default', 'responsive_bartik');
-
-  // Set the jQuery version to 1.7.
-  variable_set('jquery_update_compression_type', 'min');
-  variable_set('jquery_update_jquery_cdn', 'none');
-  variable_set('jquery_update_jquery_version', '1.7');
+  variable_set('theme_default', 'bartik');
 
   // Configure text formats for Aloha.
   // Load Filtered HTML.
