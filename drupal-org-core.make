@@ -9,7 +9,7 @@ projects[drupal][type] = core
 ; Hide the profiles under /profiles, so Spark is the only one. This allows
 ; the installation to start at the Language selection screen, bypassing a
 ; baffling and silly choice, especially for non-native speakers.
-projects[drupal][patch][1780598] = http://drupal.org/files/spark-install-1780598-5_0.patch
+projects[drupal][patch][1780598] = http://drupal.org/files/spark-install-1780598-10.patch
 ; This requires a core bug fix to not show the profile selection page when only
 ; one profile is visible.
 projects[drupal][patch][1074108] = http://drupal.org/files/1074108-skip-profile-15.patch
