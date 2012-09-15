@@ -43,6 +43,18 @@ projects[aloha][download][type] = git
 projects[aloha][download][branch] = 8.x-2.x
 projects[aloha][subdir] = contrib
 
+// @todo: Uncomment when bunnypoints is a full project.
+;projects[bunnypoints][type] = module
+;projects[bunnypoints][download][type] = git
+;projects[bunnypoints][download][branch] = 8.x-1.x
+;projects[bunnypoints][subdir] = contrib
+
+// @todo: Uncomment when regions is a full project (and renamed).
+;projects[regions][type] = module
+;projects[regions][download][type] = git
+;projects[regions][download][branch] = 8.x-1.x
+;projects[regions][subdir] = contrib
+
 projects[iconfonts][type] = module
 projects[iconfonts][download][type] = git
 projects[iconfonts][download][branch] = 8.x-1.x
