@@ -7,28 +7,13 @@ core = 8.x
 
 ; Contributed modules; standard.
 
-projects[responsive_bartik][type] = theme
-projects[responsive_bartik][download][type] = git
-projects[responsive_bartik][download][branch] = 7.x-1.x
-projects[responsive_bartik][subdir] = contrib
-
 projects[ctools][type] = module
 projects[ctools][version] = 1.2
 projects[ctools][subdir] = contrib
-; Fix incompatibilities with jQuery 1.7.
-projects[ctools][patch][1494860] = "http://drupal.org/files/ctools-dependent-js-broken-with-jquery-1.7-1494860-30.patch"
-
-projects[entity][type] = module
-projects[entity][version] = 1.0-rc3
-projects[entity][subdir] = contrib
 
 projects[fape][type] = module
 projects[fape][version] = 1.1
 projects[fape][subdir] = contrib
-
-projects[jquery_update][type] = module
-projects[jquery_update][version] = 2.x-dev
-projects[jquery_update][subdir] = contrib
 
 projects[json2][type] = module
 projects[json2][version] = 1.1
