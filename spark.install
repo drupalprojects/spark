@@ -12,9 +12,6 @@
  * @see system_install()
  */
 function spark_install() {
-  theme_enable(array('bartik'));
-  variable_set('theme_default', 'bartik');
-
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -71,8 +68,14 @@ function spark_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
+  // Enable Bartik theme and set it as default theme instead of Stark.
+  // @see system_install()
+  $default_theme = 'bartik';
+  variable_set('theme_default', $default_theme);
+  theme_enable(array($default_theme));
+  theme_disable(array('stark'));
+
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'seven';
   $blocks = array(
     array(
@@ -92,16 +95,6 @@ function spark_install() {
       'status' => 1,
       'weight' => -1,
       'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'node',
-      'delta' => 'recent',
-      'theme' => $admin_theme,
-      'status' => 1,
-      'weight' => 10,
-      'region' => 'dashboard_main',
       'pages' => '',
       'cache' => -1,
     ),
@@ -176,11 +169,15 @@ function spark_install() {
       'cache' => -1,
     ),
   );
+
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($blocks as $block) {
     $query->values($block);
   }
   $query->execute();
+
+  // Set front page to "node".
+  config('system.site')->set('page.front', 'node')->save();
 
   // Insert default pre-defined node types into the database. For a complete
   // list of available node type attributes, refer to the node type API
@@ -254,7 +251,8 @@ function spark_install() {
   variable_set('user_picture_style', 'thumbnail');
 
   // Allow visitor account creation with administrative approval.
-  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
+  $user_settings = config('user.settings');
+  $user_settings->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save();
 
   // Create a default vocabulary named "Tags", enabled for the 'article' content type.
   $description = st('Use tags to group articles on similar topics into categories.');
@@ -307,10 +305,9 @@ function spark_install() {
   );
   field_create_instance($instance);
 
-
   // Create an image field named "Image", enabled for the 'article' content type.
   // Many of the following values will be defaulted, they're included here as an illustrative examples.
-  // See http://api.drupal.org/api/function/field_create_field/7
+  // See http://api.drupal.org/api/function/field_create_field/8
 
   $field = array(
     'field_name' => 'field_image',
@@ -331,7 +328,7 @@ function spark_install() {
 
 
   // Many of the following values will be defaulted, they're included here as an illustrative examples.
-  // See http://api.drupal.org/api/function/field_create_instance/7
+  // See http://api.drupal.org/api/function/field_create_instance/8
   $instance = array(
     'field_name' => 'field_image',
     'entity_type' => 'node',
@@ -383,12 +380,13 @@ function spark_install() {
 
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
-  $admin_role->name = 'administrator';
+  $admin_role->rid = 'administrator';
+  $admin_role->name = 'Administrator';
   $admin_role->weight = 2;
   user_role_save($admin_role);
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
   // Set this as the administrator role.
-  variable_set('user_admin_role', $admin_role->rid);
+  $user_settings->set('admin_role', $admin_role->rid)->save();
 
   // Assign user 1 the "administrator" role.
   db_insert('users_roles')
@@ -403,18 +401,31 @@ function spark_install() {
   );
   menu_link_save($item);
 
-  // Update the menu router information.
-  menu_rebuild();
+  // Populate the default shortcut set.
+  $shortcut_set = shortcut_set_load(SHORTCUT_DEFAULT_SET_NAME);
+  $shortcut_set->links[] = array(
+    'link_path' => 'node/add',
+    'link_title' => st('Add content'),
+    'weight' => -20,
+  );
+  $shortcut_set->links[] = array(
+    'link_path' => 'admin/content',
+    'link_title' => st('Find content'),
+    'weight' => -19,
+  );
+  shortcut_set_save($shortcut_set);
 
-  // Enable the admin theme and Bartik theme.
+  // Update the menu router information.
+  menu_router_rebuild();
+
+  // Enable the admin theme.
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'ember')
+    ->condition('name', 'seven')
     ->execute();
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
-  variable_set('theme_default', 'bartik');
 
   // Configure text formats for Aloha.
   // Load Filtered HTML.
