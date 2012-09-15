@@ -6,33 +6,35 @@ api = 2
 core = 8.x
 
 ; Contributed modules; standard.
-
 projects[ctools][type] = module
-projects[ctools][version] = 1.2
+projects[ctools][download][type] = git
+projects[ctools][download][branch] = 8.x-1.x
 projects[ctools][subdir] = contrib
 
-projects[fape][type] = module
-projects[fape][version] = 1.1
-projects[fape][subdir] = contrib
+;projects[fape][type] = module
+;projects[fape][version] = 1.1
+;projects[fape][subdir] = contrib
 
-projects[json2][type] = module
-projects[json2][version] = 1.1
-projects[json2][subdir] = contrib
+;projects[json2][type] = module
+;projects[json2][version] = 1.1
+;projects[json2][subdir] = contrib
 
 projects[libraries][type] = module
-projects[libraries][version] = 2.x-dev
+projects[libraries][download][type] = git
+projects[libraries][download][branch] = 8.x-3.x
 projects[libraries][subdir] = contrib
 
-projects[panels][type] = module
-projects[panels][version] = 3.3
-projects[panels][subdir] = contrib
+;projects[panels][type] = module
+;projects[panels][version] = 3.3
+;projects[panels][subdir] = contrib
 ; Apply layout settings form submit callback fix needed for layout module.
-projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
+;projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
 ; Fix for strict warning on home page.
-projects[panels][patch][1632898] = "http://drupal.org/files/1632898-10.patch"
+;projects[panels][patch][1632898] = "http://drupal.org/files/1632898-10.patch"
 
 projects[resp_img][type] = module
-projects[resp_img][version] = 1.3
+projects[resp_img][download][type] = git
+projects[resp_img][download][branch] = 8.x-1.x
 projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
