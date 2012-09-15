@@ -456,7 +456,7 @@ function spark_install() {
   // but 'page' doesn't exist yet when spark_demo_install() runs. :(
   $t = get_t();
 
-  $node = new stdClass();
+  $node = entity_create('node', array());
   $node->uid = 1;
   $node->type = 'page';
   $node->status = 1;
