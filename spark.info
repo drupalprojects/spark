@@ -1,8 +1,6 @@
 name = Spark
 description = Cutting-edge authoring experience improvements for Drupal.
-version = "7.x-1.0-alpha5"
-core = 7.x
-php = 5.3
+core = 8.x
 
 ; The distribution_name property is used in the installer and other places as
 ; a label for the software being installed.
@@ -10,25 +8,25 @@ distribution_name = Spark
 
 ; Required modules (Core)
 ; Copy/pasted from standard.info
+dependencies[] = node
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
 dependencies[] = contextual
-dependencies[] = dashboard
-dependencies[] = dblog
-dependencies[] = field_ui
-dependencies[] = file
 dependencies[] = help
 dependencies[] = image
-dependencies[] = list
 dependencies[] = menu
 dependencies[] = number
 dependencies[] = options
 dependencies[] = path
-dependencies[] = rdf
+dependencies[] = taxonomy
+dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = taxonomy
+dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
 
 ; Required modules (Contrib)
 dependencies[] = entity
