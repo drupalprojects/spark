@@ -15,7 +15,7 @@ projects[drupal][patch][1780598] = http://drupal.org/files/spark-install-1780598
 projects[drupal][patch][1074108] = http://drupal.org/files/1074108-skip-profile-15.patch
 
 ; Add ability to pass #attributes to the drupal_add_js function.
-projects[drupal][patch][1664602] = http://drupal.org/files/drupal8.script-tag-attributes.4.patch
+projects[drupal][patch][1664602] = http://drupal.org/files/1664602-1-d8.patch
 
 ; Add an API for listing (configuration) entities; provides UI for Layout,
 ; Gridbuilder, Region and Bunnypoint modules.
