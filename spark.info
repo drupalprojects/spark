@@ -44,7 +44,6 @@ dependencies[] = panels_ipe
 ; Required projects (Sparkish)
 dependencies[] = aloha
 dependencies[] = edit
-dependencies[] = edit_aloha
 dependencies[] = gridbuilder
 dependencies[] = iconfonts
 dependencies[] = layout
