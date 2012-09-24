@@ -43,10 +43,8 @@ dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
 dependencies[] = aloha
-; @todo: Prevent fatal errors during installation by temporarily commenting out
-;   Edit module until http://drupal.org/node/1779196 is resolved.
-;dependencies[] = edit
-;dependencies[] = edit_aloha
+dependencies[] = edit
+dependencies[] = edit_aloha
 dependencies[] = gridbuilder
 dependencies[] = iconfonts
 dependencies[] = layout
