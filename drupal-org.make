@@ -56,17 +56,17 @@ projects[aloha][download][type] = git
 projects[aloha][download][branch] = 7.x-2.x
 projects[aloha][subdir] = contrib
 
-projects[iconfonts][type] = module
-projects[iconfonts][version] = 1.0-alpha1
-;projects[iconfonts][download][type] = git
-;projects[iconfonts][download][branch] = 7.x-1.x
-projects[iconfonts][subdir] = contrib
+projects[admin_icons][type] = module
+;projects[admin_icons][version] = 1.0-alpha1
+projects[admin_icons][download][type] = git
+projects[admin_icons][download][branch] = 7.x-1.x
+projects[admin_icons][subdir] = contrib
 
 projects[navbar][type] = module
-projects[navbar][version] = 1.0-alpha2
+;projects[navbar][version] = 1.0-alpha2
 ; @todo: Leave on alpha1 until D8-ified code gets a bit more stable.
-;projects[navbar][download][type] = git
-;projects[navbar][download][branch] = 7.x-1.x
+projects[navbar][download][type] = git
+projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
@@ -88,9 +88,9 @@ projects[gridbuilder][version] = 1.0-alpha2
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
-projects[layout][version] = 1.0-alpha3
-;projects[layout][download][type] = git
-;projects[layout][download][branch] = 7.x-1.x
+;projects[layout][version] = 1.0-alpha3
+projects[layout][download][type] = git
+projects[layout][download][branch] = 7.x-1.x
 projects[layout][subdir] = contrib
 
 projects[every_field][type] = module
