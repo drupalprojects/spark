@@ -76,15 +76,15 @@ projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
-projects[ember][version] = 1.0-alpha3
-;projects[ember][download][type] = git
-;projects[ember][download][branch] = 7.x-1.x
+;projects[ember][version] = 1.0-alpha3
+projects[ember][download][type] = git
+projects[ember][download][branch] = 7.x-1.x
 projects[ember][subdir] = contrib
 
 projects[gridbuilder][type] = module
-projects[gridbuilder][version] = 1.0-alpha2
-;projects[gridbuilder][download][type] = git
-;projects[gridbuilder][download][branch] = 7.x-1.x
+iprojects[gridbuilder][version] = 1.0-alpha2
+projects[gridbuilder][download][type] = git
+projects[gridbuilder][download][branch] = 7.x-1.x
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
@@ -104,11 +104,6 @@ projects[module_filter][subdir] = contrib
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
-
-; libraries[alohaeditor][download][type] = get
-; libraries[alohaeditor][download][url] = https://github.com/downloads/alohaeditor/Aloha-Editor/alohaeditor-0.21.1-cdn.zip
-; libraries[alohaeditor][patch][1702248] = http://drupal.org/files/1702248-9.patch
-; libraries[alohaeditor][patch][1702248-pull-request-642] = http://drupal.org/files/1702248-pull_request_642-9.patch
 
 libraries[json2][download][type] = get
 libraries[json2][download][url] = https://github.com/douglascrockford/JSON-js/blob/master/json2.js
