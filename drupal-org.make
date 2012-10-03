@@ -52,45 +52,45 @@ projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[aloha][type] = module
-projects[aloha][download][type] = git
-projects[aloha][download][branch] = 7.x-2.x
+projects[aloha][version] = 2.0-alpha1
+;projects[aloha][download][type] = git
+;projects[aloha][download][branch] = 7.x-2.x
 projects[aloha][subdir] = contrib
 
 projects[admin_icons][type] = module
-;projects[admin_icons][version] = 1.0-alpha1
-projects[admin_icons][download][type] = git
-projects[admin_icons][download][branch] = 7.x-1.x
+projects[admin_icons][version] = 1.x-dev
+;projects[admin_icons][download][type] = git
+;projects[admin_icons][download][branch] = 7.x-1.x
 projects[admin_icons][subdir] = contrib
 
 projects[navbar][type] = module
 ;projects[navbar][version] = 1.0-alpha2
-; @todo: Leave on alpha1 until D8-ified code gets a bit more stable.
 projects[navbar][download][type] = git
 projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-;projects[edit][version] = 1.0-alpha4
-projects[edit][download][type] = git
-projects[edit][download][branch] = 7.x-1.x
+projects[edit][version] = 1.0-alpha5
+;projects[edit][download][type] = git
+;projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
-;projects[ember][version] = 1.0-alpha3
-projects[ember][download][type] = git
-projects[ember][download][branch] = 7.x-1.x
+projects[ember][version] = 1.0-alpha4
+;projects[ember][download][type] = git
+;projects[ember][download][branch] = 7.x-1.x
 projects[ember][subdir] = contrib
 
 projects[gridbuilder][type] = module
-iprojects[gridbuilder][version] = 1.0-alpha2
-projects[gridbuilder][download][type] = git
-projects[gridbuilder][download][branch] = 7.x-1.x
+projects[gridbuilder][version] = 1.0-alpha2
+;projects[gridbuilder][download][type] = git
+;projects[gridbuilder][download][branch] = 7.x-1.x
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
-;projects[layout][version] = 1.0-alpha3
-projects[layout][download][type] = git
-projects[layout][download][branch] = 7.x-1.x
+projects[layout][version] = 1.0-alpha4
+;projects[layout][download][type] = git
+;projects[layout][download][branch] = 7.x-1.x
 projects[layout][subdir] = contrib
 
 projects[every_field][type] = module
