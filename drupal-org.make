@@ -8,8 +8,9 @@ core = 7.x
 ; Contributed modules; standard.
 
 projects[responsive_bartik][type] = theme
-projects[responsive_bartik][download][type] = git
-projects[responsive_bartik][download][branch] = 7.x-1.x
+projects[responsive_bartik][version] = 1.x-dev
+;projects[responsive_bartik][download][type] = git
+;projects[responsive_bartik][download][branch] = 7.x-1.x
 projects[responsive_bartik][subdir] = contrib
 
 projects[ctools][type] = module
@@ -64,9 +65,9 @@ projects[admin_icons][version] = 1.x-dev
 projects[admin_icons][subdir] = contrib
 
 projects[navbar][type] = module
-;projects[navbar][version] = 1.0-alpha2
-projects[navbar][download][type] = git
-projects[navbar][download][branch] = 7.x-1.x
+projects[navbar][version] = 1.x-dev
+;projects[navbar][download][type] = git
+;projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
