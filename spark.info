@@ -33,18 +33,20 @@ dependencies[] = rdf
 ;dependencies[] = json2
 dependencies[] = libraries
 ;dependencies[] = module_filter
-dependencies[] = page_manager
+;dependencies[] = page_manager
 ;dependencies[] = panels
 ;dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
 dependencies[] = aloha
+dependencies[] = admin_icons
 ; @todo: Prevent fatal errors during installation by temporarily commenting out
 ;   Edit module until http://drupal.org/node/1779196 is resolved.
 ;dependencies[] = edit
 ;dependencies[] = edit_aloha
-dependencies[] = gridbuilder
-dependencies[] = iconfonts
 dependencies[] = layout
+dependencies[] = gridbuilder
+dependencies[] = region
+dependencies[] = bunnypoint
 ;dependencies[] = navbar
 ;dependencies[] = spark_demo
