@@ -6,11 +6,6 @@ api = 2
 core = 8.x
 
 ; Contributed modules; standard.
-projects[ctools][type] = module
-projects[ctools][download][type] = git
-projects[ctools][download][branch] = 8.x-1.x
-projects[ctools][subdir] = contrib
-
 ;projects[fape][type] = module
 ;projects[fape][version] = 1.1
 ;projects[fape][subdir] = contrib
@@ -39,24 +34,28 @@ projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[aloha][type] = module
-projects[aloha][download][type] = git
-projects[aloha][download][branch] = 8.x-2.x
+projects[aloha][version] = 2.0-alpha1
+;projects[aloha][download][type] = git
+;projects[aloha][download][branch] = 8.x-2.x
 projects[aloha][subdir] = contrib
 
 projects[bunnypoint][type] = module
-projects[bunnypoint][download][type] = git
-projects[bunnypoint][download][branch] = 8.x-1.x
+projects[bunnypoint][version] = 1.0-alpha1
+;projects[bunnypoint][download][type] = git
+;projects[bunnypoint][download][branch] = 8.x-1.x
 projects[bunnypoint][subdir] = contrib
 
 projects[region][type] = module
-projects[region][download][type] = git
-projects[region][download][branch] = 8.x-1.x
+projects[region][version] = 1.0-alpha1
+;projects[region][download][type] = git
+;projects[region][download][branch] = 8.x-1.x
 projects[region][subdir] = contrib
 
-projects[iconfonts][type] = module
-projects[iconfonts][download][type] = git
-projects[iconfonts][download][branch] = 8.x-1.x
-projects[iconfonts][subdir] = contrib
+projects[admin_icons][type] = module
+projects[admin_icons][version] = 1.x-dev
+;projects[admin_icons][download][type] = git
+;projects[admin_icons][download][branch] = 8.x-1.x
+projects[admin_icons][subdir] = contrib
 
 ;projects[navbar][type] = module
 ;projects[navbar][download][type] = git
@@ -74,13 +73,15 @@ projects[iconfonts][subdir] = contrib
 ;projects[ember][subdir] = contrib
 
 projects[gridbuilder][type] = module
-projects[gridbuilder][download][type] = git
-projects[gridbuilder][download][branch] = 8.x-1.x
+projects[gridbuilder][version] = 1.0-alpha1
+;projects[gridbuilder][download][type] = git
+;projects[gridbuilder][download][branch] = 8.x-1.x
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
-projects[layout][download][type] = git
-projects[layout][download][branch] = 8.x-1.x
+projects[layout][version] = 1.0-alpha1
+;projects[layout][download][type] = git
+;projects[layout][download][branch] = 8.x-1.x
 projects[layout][subdir] = contrib
 
 ;projects[every_field][type] = module
