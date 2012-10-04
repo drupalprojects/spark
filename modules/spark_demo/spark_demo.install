@@ -24,7 +24,7 @@ function spark_demo_install() {
   $node->title = $t('Welcome to Spark!');
   $node->body['und'][0]['value'] = $t('Welcome to a pre-release version of the <a href="@spark-project-url">Spark distribution</a>! Our goal is to greatly improve the authoring experience of Drupal, through a Drupal 7 distribution that can be used today, but can also be proposed as Drupal 8 core improvements for tomorrow. You can read more about it at <a href="@spark-announce-url">the official announcement</a> or at <a href="@spark-microsite-url">www.sparkdrupal.com</a>. Read on for more info!
 
-<img src="http://drupal.org/files/imagecache/grid-3/project-images/spark_logo.png" alt="Spark Logo" width="193" height="100" data-caption="The Spark logo, complete with a lovely image caption. Go into Edit mode and drag it! We dare you!" data-align="right">
+<img src="http://drupal.org/files/imagecache/grid-3/project-images/spark_logo.png" alt="Spark Logo" width="193" height="100" data-caption="The Spark logo, complete with a lovely image caption. Go into Edit mode and edit this text! We dare you!" data-align="right">
 
 Please take a look around! Within, you will find such nifty features as:
 
