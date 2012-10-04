@@ -50,4 +50,4 @@ dependencies[] = gridbuilder
 dependencies[] = region
 dependencies[] = bunnypoint
 ;dependencies[] = navbar
-;dependencies[] = spark_demo
+dependencies[] = spark_demo
