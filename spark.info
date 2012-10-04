@@ -40,6 +40,7 @@ dependencies[] = libraries
 ; Required projects (Sparkish)
 dependencies[] = aloha
 dependencies[] = admin_icons
+dependencies[] = caption
 ; @todo: Prevent fatal errors during installation by temporarily commenting out
 ;   Edit module until http://drupal.org/node/1779196 is resolved.
 ;dependencies[] = edit
