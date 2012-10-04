@@ -27,10 +27,10 @@ projects[libraries][subdir] = contrib
 ; Fix for strict warning on home page.
 ;projects[panels][patch][1632898] = "http://drupal.org/files/1632898-10.patch"
 
-projects[resp_img][type] = module
-projects[resp_img][download][type] = git
-projects[resp_img][download][branch] = 8.x-1.x
-projects[resp_img][subdir] = contrib
+;projects[resp_img][type] = module
+;projects[resp_img][download][type] = git
+;projects[resp_img][download][branch] = 8.x-1.x
+;projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[aloha][type] = module

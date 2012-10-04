@@ -4,6 +4,9 @@
 api = 2
 core = 8.x
 projects[drupal][type] = core
+projects[drupal][download][type] = git
+projects[drupal][download][revision] = 3afc4cc98e3064180a27151da907c25f1f41bc4d
+projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
 ; Hide the profiles under /profiles, so Spark is the only one. This allows
