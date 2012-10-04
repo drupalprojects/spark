@@ -65,7 +65,7 @@ projects[admin_icons][version] = 1.x-dev
 projects[admin_icons][subdir] = contrib
 
 projects[navbar][type] = module
-projects[navbar][version] = 1.x-dev
+projects[navbar][version] = 1.0-alpha3
 ;projects[navbar][download][type] = git
 ;projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
