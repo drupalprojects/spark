@@ -17,11 +17,8 @@ projects[drupal][patch][1074108] = http://drupal.org/files/1074108-skip-profile-
 ; Add ability to pass #attributes to the drupal_add_js function.
 projects[drupal][patch][1664602] = http://drupal.org/files/drupal8.script-tag-attributes.4.patch
 
-; Add an API for listing (configuration) entities; provides UI for Layout,
-; Gridbuilder, Region and Bunnypoint modules.
-projects[drupal][patch][1781372] = http://drupal.org/files/listing-1781372-74.patch
-
 ; Filter system changes required for Aloha to work.
 projects[drupal][patch][1782838] = http://drupal.org/files/drupal_wysiwyg-in-core-round-one-1782838-13.patch
 
-
+; Mobile toolbar.
+projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_69.patch
