@@ -72,6 +72,6 @@ We hope you enjoy playing with Spark! We greatly welcome collaboration; join us 
     ),
   );
 
-  $node->save();
+  node_save($node);
 }
 
