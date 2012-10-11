@@ -25,4 +25,4 @@ projects[drupal][patch][1664602] = http://drupal.org/files/drupal8.script-tag-at
 projects[drupal][patch][1782838] = http://drupal.org/files/drupal_wysiwyg-in-core-round-one-1782838-32_0.patch
 
 ; Mobile toolbar.
-projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_69.patch
+projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar-114.patch
