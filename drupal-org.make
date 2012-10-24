@@ -57,11 +57,6 @@ projects[admin_icons][version] = 1.x-dev
 ;projects[admin_icons][download][branch] = 8.x-1.x
 projects[admin_icons][subdir] = contrib
 
-;projects[navbar][type] = module
-;projects[navbar][download][type] = git
-;projects[navbar][download][branch] = 8.x-1.x
-;projects[navbar][subdir] = contrib
-
 ;projects[edit][type] = module
 ;projects[edit][download][type] = git
 ;projects[edit][download][branch] = 8.x-1.x
