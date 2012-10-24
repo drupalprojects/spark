@@ -5,8 +5,8 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Thu, 11 Oct 2012 02:39:58 +0000 (19:39 -0700)
-projects[drupal][download][revision] = 716e8a83ad582240f02f8cff7cc2d064f4891401
+; Tue Oct 23 21:30:10 2012 -0700
+projects[drupal][download][revision] = 2205070015c80724fe79239d58a7e908b08b9690
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -25,4 +25,4 @@ projects[drupal][patch][1664602] = http://drupal.org/files/drupal8.script-tag-at
 projects[drupal][patch][1782838] = http://drupal.org/files/drupal_wysiwyg-in-core-round-one-1782838-26.patch
 
 ; Mobile toolbar.
-projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar-114.patch
+projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_150_0.patch
