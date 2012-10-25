@@ -18,8 +18,11 @@ projects[drupal][patch][1780598] = http://drupal.org/files/spark-install-1780598
 ; one profile is visible.
 projects[drupal][patch][1074108] = http://drupal.org/files/1074108-skip-profile-15.patch
 
-; Add ability to pass #attributes to the drupal_add_js function.
+; (Aloha) Add ability to pass #attributes to the drupal_add_js function.
 projects[drupal][patch][1664602] = http://drupal.org/files/drupal8.script-tag-attributes.4.patch
 
 ; Mobile toolbar.
 projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_150_0.patch
+
+; (Edit) Allow more Field API public API functions to act on a single field within an entity.
+projects[drupal][patch][1821906] = http://drupal.org/files/field_api_single_field-1821906-5.patch
