@@ -26,3 +26,14 @@ projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-to
 
 ; (Edit) Allow more Field API public API functions to act on a single field within an entity.
 projects[drupal][patch][1821906] = http://drupal.org/files/field_api_single_field-1821906-5.patch
+
+; Layout module bugfix
+projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
+; Regions module
+projects[drupal][patch][1813910] = http://drupal.org/files/region-module-7.patch
+; Page library
+projects[drupal][patch][1787942] = http://drupal.org/files/pages-28.patch
+; Grid support
+projects[drupal][patch][1816650] = http://drupal.org/files/grids-in-core-18.patch
+; Responsive layout module
+projects[drupal][patch][1822950] = http://drupal.org/files/rlayout-1.patch

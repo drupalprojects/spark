@@ -39,18 +39,6 @@ projects[aloha][version] = 2.0-alpha2
 ;projects[aloha][download][branch] = 8.x-2.x
 projects[aloha][subdir] = contrib
 
-projects[bunnypoint][type] = module
-projects[bunnypoint][version] = 1.0-alpha1
-;projects[bunnypoint][download][type] = git
-;projects[bunnypoint][download][branch] = 8.x-1.x
-projects[bunnypoint][subdir] = contrib
-
-projects[region][type] = module
-projects[region][version] = 1.0-alpha1
-;projects[region][download][type] = git
-;projects[region][download][branch] = 8.x-1.x
-projects[region][subdir] = contrib
-
 projects[admin_icons][type] = module
 projects[admin_icons][version] = 1.x-dev
 ;projects[admin_icons][download][type] = git
@@ -67,18 +55,6 @@ projects[edit][subdir] = contrib
 ;projects[ember][download][type] = git
 ;projects[ember][download][branch] = 8.x-1.x
 ;projects[ember][subdir] = contrib
-
-projects[gridbuilder][type] = module
-projects[gridbuilder][version] = 1.0-alpha1
-;projects[gridbuilder][download][type] = git
-;projects[gridbuilder][download][branch] = 8.x-1.x
-projects[gridbuilder][subdir] = contrib
-
-projects[layout][type] = module
-projects[layout][version] = 1.0-alpha1
-;projects[layout][download][type] = git
-;projects[layout][download][branch] = 8.x-1.x
-projects[layout][subdir] = contrib
 
 ;projects[every_field][type] = module
 ;projects[every_field][version] = 1.x-dev
