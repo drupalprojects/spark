@@ -6,7 +6,7 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Tue Oct 23 21:30:10 2012 -0700
-projects[drupal][download][revision] = 8deaba40a24436c3b2ecacdfe51c2f1a5a0f4f4e
+projects[drupal][download][revision] = 3b4548f90a192bac1226bef1cabeaf7945e6bb1f
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -25,7 +25,7 @@ projects[drupal][patch][1664602] = http://drupal.org/files/drupal8.script-tag-at
 
 ; MOBILE TOOLBAR
 ; This is a temporary replacement for the impending patch to 1137920.
-projects[drupal][patch][1825384] = http://drupal.org/files/1825384_spark-8.x-integration_2.patch
+projects[drupal][patch][1825384] = http://drupal.org/files/1825384_spark-8.x-integration_3.patch
 
 ; LAYOUT
 projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
