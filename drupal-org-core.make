@@ -11,10 +11,6 @@ projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
 
-; ALOHA
-; Add ability to pass #attributes to the drupal_add_js function.
-projects[drupal][patch][1664602] = http://drupal.org/files/js_attributes-1664602_1.patch
-
 ; MOBILE TOOLBAR
 projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_184.patch
 

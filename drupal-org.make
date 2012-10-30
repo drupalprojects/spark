@@ -13,7 +13,7 @@ projects[libraries][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[aloha][type] = module
-;projects[aloha][version] = 2.0-alpha3
+;projects[aloha][version] = 2.0-alpha4
 projects[aloha][download][type] = git
 projects[aloha][download][branch] = 8.x-2.x
 projects[aloha][subdir] = contrib
