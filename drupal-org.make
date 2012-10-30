@@ -6,31 +6,10 @@ api = 2
 core = 8.x
 
 ; Contributed modules; standard.
-;projects[fape][type] = module
-;projects[fape][version] = 1.1
-;projects[fape][subdir] = contrib
-
-;projects[json2][type] = module
-;projects[json2][version] = 1.1
-;projects[json2][subdir] = contrib
-
 projects[libraries][type] = module
 projects[libraries][download][type] = git
 projects[libraries][download][branch] = 8.x-3.x
 projects[libraries][subdir] = contrib
-
-;projects[panels][type] = module
-;projects[panels][version] = 3.3
-;projects[panels][subdir] = contrib
-; Apply layout settings form submit callback fix needed for layout module.
-;projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
-; Fix for strict warning on home page.
-;projects[panels][patch][1632898] = "http://drupal.org/files/1632898-10.patch"
-
-;projects[resp_img][type] = module
-;projects[resp_img][download][type] = git
-;projects[resp_img][download][branch] = 8.x-1.x
-;projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[aloha][type] = module
@@ -58,17 +37,7 @@ projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integra
 ;projects[ember][download][branch] = 8.x-1.x
 ;projects[ember][subdir] = contrib
 
-;projects[every_field][type] = module
-;projects[every_field][version] = 1.x-dev
-;projects[every_field][subdir] = contrib
-
 ; Contributed modules; UX++
-;projects[module_filter][type] = module
-;projects[module_filter][version] = 1.7
-;projects[module_filter][subdir] = contrib
 
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
-;libraries[json2][download][type] = get
-;libraries[json2][download][url] = https://github.com/douglascrockford/JSON-js/blob/master/json2.js
-;libraries[json2][revision] = fc535e9cc8fa78bbf45a85835c830e7f799a5084
