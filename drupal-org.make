@@ -18,12 +18,6 @@ projects[aloha][download][type] = git
 projects[aloha][download][branch] = 8.x-2.x
 projects[aloha][subdir] = contrib
 
-projects[admin_icons][type] = module
-projects[admin_icons][version] = 1.x-dev
-;projects[admin_icons][download][type] = git
-;projects[admin_icons][download][branch] = 8.x-1.x
-projects[admin_icons][subdir] = contrib
-
 projects[edit][type] = module
 ;projects[edit][version] = 1.0-alpha1
 projects[edit][download][type] = git
