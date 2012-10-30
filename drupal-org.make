@@ -24,7 +24,7 @@ projects[edit][download][type] = git
 projects[edit][download][branch] = 8.x-1.x
 projects[edit][subdir] = contrib
 ; Toolbar integration.
-projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_5.patch
+projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_6.patch
 
 ;projects[ember][type] = theme
 ;projects[ember][download][type] = git

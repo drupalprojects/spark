@@ -17,7 +17,7 @@ projects[drupal][patch][1664602] = http://drupal.org/files/js_attributes-1664602
 
 ; MOBILE TOOLBAR
 ; This is a temporary replacement for the impending patch to 1137920.
-projects[drupal][patch][1825384] = http://drupal.org/files/1825384_spark-8.x-integration_3.patch
+projects[drupal][patch][1825384] = http://drupal.org/files/1825384_spark-8.x-integration_7.patch
 
 ; LAYOUT
 projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
