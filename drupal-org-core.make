@@ -5,19 +5,11 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Tue Oct 23 21:30:10 2012 -0700
+; Mon, 29 Oct 2012 19:38:10 +0000 (12:38 -0700)
 projects[drupal][download][revision] = 3b4548f90a192bac1226bef1cabeaf7945e6bb1f
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
-; Hide the profiles under /profiles, so Spark is the only one. This allows
-; the installation to start at the Language selection screen, bypassing a
-; baffling and silly choice, especially for non-native speakers.
-projects[drupal][patch][1780598] = http://drupal.org/files/spark-install-1780598-10.patch
-
-; This requires a core bug fix to not show the profile selection page when only
-; one profile is visible.
-projects[drupal][patch][1074108] = http://drupal.org/files/1074108-skip-profile-15.patch
 
 ; ALOHA
 ; Add ability to pass #attributes to the drupal_add_js function.

@@ -6,6 +6,10 @@ core = 8.x
 ; a label for the software being installed.
 distribution_name = Spark
 
+; Mark this as an 'exclusive' profile, so if it's the only one, it gets auto-
+; selected by default.
+exclusive = TRUE
+
 ; Required modules (Core)
 ; Copy/pasted from standard.info
 dependencies[] = node
