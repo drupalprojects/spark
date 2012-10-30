@@ -13,7 +13,7 @@ projects[drupal][download][branch] = 8.x
 
 ; ALOHA
 ; Add ability to pass #attributes to the drupal_add_js function.
-projects[drupal][patch][1664602] = http://drupal.org/files/drupal8.script-tag-attributes.4.patch
+projects[drupal][patch][1664602] = http://drupal.org/files/js_attributes-1664602_1.patch
 
 ; MOBILE TOOLBAR
 ; This is a temporary replacement for the impending patch to 1137920.
