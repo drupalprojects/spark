@@ -46,6 +46,7 @@ dependencies[] = aloha
 ;dependencies[] = admin_icons
 dependencies[] = caption
 dependencies[] = edit
+dependencies[] = edit_aloha
 dependencies[] = layout
 dependencies[] = rlayout
 dependencies[] = grid
