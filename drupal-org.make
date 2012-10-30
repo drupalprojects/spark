@@ -31,7 +31,5 @@ projects[edit][subdir] = contrib
 ;projects[ember][download][branch] = 8.x-1.x
 ;projects[ember][subdir] = contrib
 
-; Contributed modules; UX++
-
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.

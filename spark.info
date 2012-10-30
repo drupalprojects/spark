@@ -43,7 +43,7 @@ dependencies[] = libraries
 
 ; Required projects (Sparkish)
 dependencies[] = aloha
-dependencies[] = admin_icons
+;dependencies[] = admin_icons
 dependencies[] = caption
 dependencies[] = edit
 dependencies[] = edit_aloha
