@@ -5,14 +5,17 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Mon, 29 Oct 2012 19:38:10 +0000 (12:38 -0700)
-projects[drupal][download][revision] = 3b4548f90a192bac1226bef1cabeaf7945e6bb1f
+; Fri, 16 Nov 2012 13:44:28
+projects[drupal][download][revision] = 60e3f5c16f2cd89c0496aee859e30e4fc43b1875
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
 
 ; MOBILE TOOLBAR
-projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_184.patch
+projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_284.patch
+
+; EDIT
+projects[drupal][patch][] = http://drupal.org/files/in_place_editing_for_fields-9.patch
 
 ; LAYOUT
 projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
