@@ -18,16 +18,16 @@ projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-to
 projects[drupal][patch][] = http://drupal.org/files/in_place_editing_for_fields-9.patch
 
 ; LAYOUT
-projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
+;projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
 
 ; REGIONS
-projects[drupal][patch][1813910] = http://drupal.org/files/region-module-7.patch
+;projects[drupal][patch][1813910] = http://drupal.org/files/region-module-7.patch
 
 ; PAGE LIBRARY
-projects[drupal][patch][1787942] = http://drupal.org/files/pages-28.patch
+;projects[drupal][patch][1787942] = http://drupal.org/files/pages-28.patch
 
 ; GRID SUPPORT
-projects[drupal][patch][1816650] = http://drupal.org/files/grids-in-core-18.patch
+;projects[drupal][patch][1816650] = http://drupal.org/files/grids-in-core-18.patch
 
 ; RESPONSIVE LAYOUT MODULE
-projects[drupal][patch][1822950] = http://drupal.org/files/rlayout-1.patch
+;projects[drupal][patch][1822950] = http://drupal.org/files/rlayout-1.patch
