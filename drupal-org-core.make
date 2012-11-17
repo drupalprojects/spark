@@ -31,9 +31,7 @@ projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-to
 
 ; OPP (Other Peoples' Patches)
 
-; Install task -> state system patch, testing to see if it resolves errors on
-; install.
-projects[drupal][patch][1798732] = http://drupal.org/files/installer.services.74.patch
-
 ; Auto-create databases with sufficient perms; helps with testing.
 projects[drupal][patch][203955] = http://drupal.org/files/drupal-new-database-on-install-203955-46.patch
+
+
