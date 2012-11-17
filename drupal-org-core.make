@@ -28,3 +28,6 @@ projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-to
 
 ; RESPONSIVE LAYOUT MODULE
 ;projects[drupal][patch][1822950] = http://drupal.org/files/rlayout-1.patch
+
+; Auto-create databases with sufficient perms; helps with testing.
+projects[drupal][patch][203955] = http://drupal.org/files/drupal-new-database-on-install-203955-46.patch
