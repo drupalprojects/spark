@@ -14,9 +14,6 @@ projects[drupal][download][branch] = 8.x
 ; MOBILE TOOLBAR
 projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_284.patch
 
-; EDIT
-projects[drupal][patch][] = http://drupal.org/files/in_place_editing_for_fields-9.patch
-
 ; LAYOUT
 ;projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
 
