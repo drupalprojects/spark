@@ -12,7 +12,7 @@ projects[drupal][download][branch] = 8.x
 ; CORE PATCHES
 
 ; MOBILE TOOLBAR
-projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_284.patch
+projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_290_0.patch
 
 ; LAYOUT
 ;projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch

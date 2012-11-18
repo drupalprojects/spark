@@ -22,7 +22,7 @@ projects[edit][type] = module
 projects[edit][download][type] = git
 projects[edit][download][branch] = 8.x-1.x
 ; Toolbar integration.
-projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_12_0.patch
+projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_13.patch
 
 ;projects[ember][type] = theme
 ;projects[ember][download][type] = git
