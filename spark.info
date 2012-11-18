@@ -14,8 +14,10 @@ exclusive = TRUE
 ; Copy/pasted from standard.info
 dependencies[] = node
 dependencies[] = block
+dependencies[] = breakpoint
 dependencies[] = color
 dependencies[] = comment
+dependencies[] = config
 dependencies[] = contextual
 dependencies[] = help
 dependencies[] = image
@@ -42,15 +44,22 @@ dependencies[] = libraries
 ;dependencies[] = panels_ipe
 
 ; Required projects (Sparkish)
+;dependencies[] = spark_demo
+
+; WYSIWYG
 dependencies[] = aloha
-;dependencies[] = admin_icons
 dependencies[] = caption
+
+; Inline editing
 dependencies[] = edit
 dependencies[] = edit_aloha
+
+; Layouts
 dependencies[] = layout
+dependencies[] = display
+dependencies[] = page
+
+; @todo: Responsive layouts
 ;dependencies[] = rlayout
 ;dependencies[] = grid
 ;dependencies[] = region
-dependencies[] = breakpoint
-;dependencies[] = navbar
-;dependencies[] = spark_demo
