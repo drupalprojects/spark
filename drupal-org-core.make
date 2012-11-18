@@ -14,6 +14,14 @@ projects[drupal][download][branch] = 8.x
 ; MOBILE TOOLBAR
 projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_290_0.patch
 
+; LAYOUT STUFF
+; Layout template demonstration.
+projects[drupal][patch][1839278] = http://drupal.org/files/layout-template-demonstration-15.patch
+; Configure master layouts.
+projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-9.patch
+; Landing page creation.
+projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
+
 ; LAYOUT
 ;projects[drupal][patch][1822998] = http://drupal.org/files/set-theme-for-layout.patch
 
