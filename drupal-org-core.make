@@ -15,7 +15,7 @@ projects[drupal][download][branch] = 8.x
 projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_290_0.patch
 
 ; EDIT
-projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-9.patch
+projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-12.patch
 ; Integrate Edit with the mobile toolbar (#1137920)
 projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_23.patch
 
