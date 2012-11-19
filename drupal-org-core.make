@@ -12,7 +12,7 @@ projects[drupal][download][branch] = 8.x
 ; CORE PATCHES
 
 ; MOBILE TOOLBAR
-projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_290_0.patch
+projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_297.patch
 
 ; EDIT
 projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-12.patch
@@ -23,9 +23,9 @@ projects[drupal][patch][1825474] = http://drupal.org/files/1825474_toolbar-integ
 
 ; LAYOUT STUFF
 ; Layout template demonstration.
-projects[drupal][patch][1839278] = http://drupal.org/files/layout-template-demonstration-15.patch
+projects[drupal][patch][1839278] = http://drupal.org/files/layout-template-demonstration-21.patch
 ; Configure master layouts.
-projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-9.patch
+projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-13_0.patch
 ; Landing page creation.
 projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 
