@@ -47,4 +47,5 @@ projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patc
 ; Auto-create databases with sufficient perms; helps with testing.
 projects[drupal][patch][203955] = http://drupal.org/files/drupal-new-database-on-install-203955-46.patch
 
-
+; Attempt to kill notices after installation.
+projects[drupal][patch][1798732] = http://drupal.org/files/installer.services.84.patch
