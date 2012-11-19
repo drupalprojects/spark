@@ -21,8 +21,6 @@ projects[aloha][download][branch] = 8.x-2.x
 ;projects[edit][version] = 1.0-alpha1
 ;projects[edit][download][type] = git
 ;projects[edit][download][branch] = 8.x-1.x
-; Toolbar integration.
-projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_17.patch
 
 ;projects[ember][type] = theme
 ;projects[ember][download][type] = git

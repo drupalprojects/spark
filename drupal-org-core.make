@@ -16,6 +16,8 @@ projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-to
 
 ; EDIT
 projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-9.patch
+; Integrate Edit with the mobile toolbar (#1137920)
+projects[edit][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_23.patch
 
 ; LAYOUT STUFF
 ; Layout template demonstration.
