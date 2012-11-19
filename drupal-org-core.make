@@ -17,7 +17,7 @@ projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-to
 ; EDIT
 projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-12.patch
 ; Integrate Edit with Aloha
-projects[drupal][patch][1824500-aloha] http://drupal.org/files/in_place_editing_for_fields-aloha-integration-12-do-not-test.patch
+projects[drupal][patch][1824501] http://drupal.org/files/in_place_editing_for_fields-aloha-integration-12-do-not-test.patch
 ; Integrate Edit with the mobile toolbar (#1137920)
 projects[drupal][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_23-core.patch
 
