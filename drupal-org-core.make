@@ -14,6 +14,10 @@ projects[drupal][download][branch] = 8.x
 ; MOBILE TOOLBAR
 projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_297.patch
 
+; ALOHA EDITOR
+projects[drupal][patch][1809702-module] = http://drupal.org/files/drupal_wysiwyg-in-core-round-two-aloha-module-72.patch
+projects[drupal][patch][1809702-build] = http://drupal.org/files/drupal_wysiwyg-in-core-round-two-aloha-build-72-do-not-test.patch
+
 ; EDIT
 projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-12.patch
 ; Integrate Edit with Aloha
