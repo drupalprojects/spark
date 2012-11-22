@@ -11,9 +11,6 @@ projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
 
-; MOBILE TOOLBAR
-projects[drupal][patch][1137920] = http://drupal.org/files/1137920_responsive-toolbar_297.patch
-
 ; EDIT
 projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-12.patch
 ; Integrate Edit with Aloha
