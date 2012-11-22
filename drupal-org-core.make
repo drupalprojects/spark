@@ -12,11 +12,9 @@ projects[drupal][download][branch] = 8.x
 ; CORE PATCHES
 
 ; EDIT
-projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-12.patch
+projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-26.patch
 ; Integrate Edit with Aloha
-projects[drupal][patch][1824500-aloha] = http://drupal.org/files/in_place_editing_for_fields-aloha-integration-12-do-not-test.patch
-; Integrate Edit with the mobile toolbar (#1137920)
-projects[drupal][patch][1825474] = http://drupal.org/files/1825474_toolbar-integration_23-core.patch
+projects[drupal][patch][1824500-aloha] = http://drupal.org/files/in_place_editing_for_fields-aloha-integration-26-do-not-test.patch
 
 ; LAYOUT STUFF
 ; Layout template demonstration.
