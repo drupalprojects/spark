@@ -15,14 +15,9 @@ projects[libraries][subdir] = contrib
 ; Note: continue to use the Aloha module instead of the core patch because the
 ; core patch excludes the Caption module, which Spark explicitly demoes.
 projects[aloha][type] = module
-projects[aloha][version] = 2.0-alpha4
+projects[aloha][version] = 2.0-alpha5
 ;projects[aloha][download][type] = git
 projects[aloha][download][branch] = 8.x-2.x
-
-;projects[edit][type] = module
-;projects[edit][version] = 1.0-alpha1
-;projects[edit][download][type] = git
-;projects[edit][download][branch] = 8.x-1.x
 
 ;projects[ember][type] = theme
 ;projects[ember][download][type] = git

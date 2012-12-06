@@ -56,7 +56,6 @@ dependencies[] = edit_aloha
 
 ; Layouts
 dependencies[] = layout
-dependencies[] = display
 dependencies[] = page
 
 ; @todo: Responsive layouts
