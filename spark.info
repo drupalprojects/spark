@@ -55,6 +55,7 @@ dependencies[] = libraries
 
 ; WYSIWYG
 dependencies[] = editor
+dependencies[] = wysiwyg_ckeditor
 
 ; Layouts
 dependencies[] = layout
