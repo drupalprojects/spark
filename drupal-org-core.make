@@ -5,16 +5,11 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Thu, 6 Dec 2012 12:33:17 +0000 (12:33 +0000)
-projects[drupal][download][revision] = 3831022158651f7acb4cd8122f532b389fd5ba70
+; Fri, 11 Jan 2013 17:44:56 +0000 (09:44 -0800)
+projects[drupal][download][revision] = 9ad506423508c44d733ff6a7fcd81e3d267b317d
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
-
-; EDIT
-projects[drupal][patch][1824500] = http://drupal.org/files/in_place_editing_for_fields-74.patch
-; Integrate Edit with Aloha
-projects[drupal][patch][1824500-aloha] = http://drupal.org/files/in_place_editing_for_fields-aloha-integration-74-do-not-test.patch
 
 ; LAYOUT STUFF
 ; Configure master layouts.
