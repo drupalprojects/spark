@@ -12,13 +12,6 @@ projects[libraries][download][branch] = 8.x-3.x
 projects[libraries][subdir] = contrib
 
 ; Contributed projects; Sparkish.
-; Note: continue to use the Aloha module instead of the core patch because the
-; core patch excludes the Caption module, which Spark explicitly demoes.
-projects[aloha][type] = module
-projects[aloha][version] = 2.0-alpha5
-;projects[aloha][download][type] = git
-projects[aloha][download][branch] = 8.x-2.x
-
 ;projects[ember][type] = theme
 ;projects[ember][download][type] = git
 ;projects[ember][download][branch] = 8.x-1.x

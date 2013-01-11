@@ -47,8 +47,6 @@ dependencies[] = libraries
 ;dependencies[] = spark_demo
 
 ; WYSIWYG
-dependencies[] = aloha
-dependencies[] = caption
 
 ; Inline editing
 dependencies[] = edit
