@@ -11,6 +11,16 @@ projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
 
+; EDIT MODULE — IMPROVEMENTS
+; Pluggable in-place editors.
+projects[drupal][patch][1874936] = http://drupal.org/files/edit_editors-1874936-18.patch
+
+; EDITOR MODULE
+; Editor.module itself.
+projects[drupal][patch][1833716] = http://drupal.org/files/editor_module-1833716-144.patch
+; Editor.module implementing an in-place editor.
+projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-1-do-not-test.patch
+
 ; LAYOUT STUFF
 ; Configure master layouts.
 projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-1841584-55_0.patch

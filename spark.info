@@ -54,6 +54,7 @@ dependencies[] = libraries
 ;dependencies[] = spark_demo
 
 ; WYSIWYG
+dependencies[] = editor
 
 ; Layouts
 dependencies[] = layout
