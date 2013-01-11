@@ -17,7 +17,8 @@ projects[libraries][subdir] = contrib
 projects[wysiwyg_ckeditor][type] = module
 projects[wysiwyg_ckeditor][download][type] = git
 projects[wysiwyg_ckeditor][download][branch] = 8.x-1.x
-projects[wysiwyg_ckeditor][download][revision] = 33f1c07fd93f17046653107f218fbb68cb6eb7ef
+; drush make fail — it will check out the master branch and pretend this revision was checked out, but thus causing breakage
+;projects[wysiwyg_ckeditor][download][revision] = 33f1c07fd93f17046653107f218fbb68cb6eb7ef
 projects[wysiwyg_ckeditor][subdir] = contrib
 
 ; Ember admin theme.
