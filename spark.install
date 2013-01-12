@@ -68,107 +68,6 @@ function spark_install() {
   theme_enable(array($default_theme));
   theme_disable(array('stark'));
 
-  // Enable some standard blocks.
-  $admin_theme = 'seven';
-  $blocks = array(
-    array(
-      'module' => 'system',
-      'delta' => 'main',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'content',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'search',
-      'delta' => 'form',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => -1,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'user',
-      'delta' => 'login',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'navigation',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'powered-by',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 10,
-      'region' => 'footer',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'help',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'help',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'main',
-      'theme' => $admin_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'content',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'help',
-      'theme' => $admin_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'help',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'user',
-      'delta' => 'login',
-      'theme' => $admin_theme,
-      'status' => 1,
-      'weight' => 10,
-      'region' => 'content',
-      'pages' => '',
-      'cache' => -1,
-    ),
-  );
-
-  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
-  foreach ($blocks as $block) {
-    $query->values($block);
-  }
-  $query->execute();
-
   // Set front page to "node".
   config('system.site')->set('page.front', 'node')->save();
 
@@ -237,12 +136,6 @@ function spark_install() {
   // Don't display date and author information for "Basic page" nodes by default.
   variable_set('node_submitted_page', FALSE);
 
-  // Enable user picture support and set the default to a square thumbnail option.
-  variable_set('user_pictures', '1');
-  variable_set('user_picture_dimensions', '1024x1024');
-  variable_set('user_picture_file_size', '800');
-  variable_set('user_picture_style', 'thumbnail');
-
   // Allow visitor account creation with administrative approval.
   $user_settings = config('user.settings');
   $user_settings->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save();
@@ -253,21 +146,21 @@ function spark_install() {
   $vocabulary = entity_create('taxonomy_vocabulary', array(
     'name' => st('Tags'),
     'description' => $description,
-    'machine_name' => 'tags',
+    'vid' => 'tags',
     'langcode' => language_default()->langcode,
     'help' => $help,
   ));
   taxonomy_vocabulary_save($vocabulary);
 
   $field = array(
-    'field_name' => 'field_' . $vocabulary->machine_name,
+    'field_name' => 'field_' . $vocabulary->id(),
     'type' => 'taxonomy_term_reference',
     // Set cardinality to unlimited for tagging.
     'cardinality' => FIELD_CARDINALITY_UNLIMITED,
     'settings' => array(
       'allowed_values' => array(
         array(
-          'vocabulary' => $vocabulary->machine_name,
+          'vocabulary' => $vocabulary->id(),
           'parent' => 0,
         ),
       ),
@@ -276,7 +169,7 @@ function spark_install() {
   field_create_field($field);
 
   $instance = array(
-    'field_name' => 'field_' . $vocabulary->machine_name,
+    'field_name' => 'field_' . $vocabulary->id(),
     'entity_type' => 'node',
     'label' => 'Tags',
     'bundle' => 'article',
@@ -285,18 +178,22 @@ function spark_install() {
       'type' => 'taxonomy_autocomplete',
       'weight' => -4,
     ),
-    'display' => array(
-      'default' => array(
-        'type' => 'taxonomy_term_reference_link',
-        'weight' => 10,
-      ),
-      'teaser' => array(
-        'type' => 'taxonomy_term_reference_link',
-        'weight' => 10,
-      ),
-    ),
   );
   field_create_instance($instance);
+
+  // Assign display settings for the 'default' and 'teaser' view modes.
+  entity_get_display('node', 'article', 'default')
+    ->setComponent($instance['field_name'], array(
+      'type' => 'taxonomy_term_reference_link',
+      'weight' => 10,
+    ))
+    ->save();
+  entity_get_display('node', 'article', 'teaser')
+    ->setComponent($instance['field_name'], array(
+      'type' => 'taxonomy_term_reference_link',
+      'weight' => 10,
+    ))
+    ->save();
 
   // Create an image field named "Image", enabled for the 'article' content type.
   // Many of the following values will be defaulted, they're included here as an illustrative examples.
@@ -348,23 +245,30 @@ function spark_install() {
       ),
       'weight' => -1,
     ),
-
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'type' => 'image',
-        'settings' => array('image_style' => 'large', 'image_link' => ''),
-        'weight' => -1,
-      ),
-      'teaser' => array(
-        'label' => 'hidden',
-        'type' => 'image',
-        'settings' => array('image_style' => 'medium', 'image_link' => 'content'),
-        'weight' => -1,
-      ),
-    ),
   );
   field_create_instance($instance);
+
+  // Assign display settings for the 'default' and 'teaser' view modes.
+  entity_get_display('node', 'article', 'default')
+    ->setComponent($instance['field_name'], array(
+      'label' => 'hidden',
+      'type' => 'image',
+      'settings' => array('image_style' => 'large', 'image_link' => ''),
+      'weight' => -1,
+    ))
+    ->save();
+  entity_get_display('node', 'article', 'teaser')
+    ->setComponent($instance['field_name'], array(
+      'label' => 'hidden',
+      'type' => 'image',
+      'settings' => array('image_style' => 'medium', 'image_link' => 'content'),
+      'weight' => -1,
+    ))
+    ->save();
+
+  // Create user picture field.
+  module_load_install('user');
+  user_install_picture_field();
 
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
@@ -390,9 +294,14 @@ function spark_install() {
   $item = array(
     'link_title' => st('Home'),
     'link_path' => '<front>',
-    'menu_name' => 'main-menu',
+    'menu_name' => 'main',
   );
   menu_link_save($item);
+
+  // Enable the Contact link in the footer menu.
+  menu_link_maintain('system', 'enable', 'contact');
+  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access site-wide contact form'));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access site-wide contact form'));
 
   // Populate the default shortcut set.
   $shortcut_set = shortcut_set_load(SHORTCUT_DEFAULT_SET_NAME);
@@ -408,13 +317,11 @@ function spark_install() {
   );
   shortcut_set_save($shortcut_set);
 
-  // Update the menu router information.
-  menu_router_rebuild();
-
   // Enable the admin theme.
   theme_enable(array('seven'));
-  variable_set('admin_theme', 'seven');
+  config('system.theme')->set('admin', 'seven')->save();
   variable_set('node_admin_theme', '1');
+
 
   // Clear zee cache.
   filter_formats_reset();
@@ -442,7 +349,7 @@ Completely synergize resource sucking relationships via premier niche markets. P
     'hidden' => 0,
     'has_children' => 0,
     'customized' => 0,
-    'options' => 
+    'options' =>
     array (
     ),
     'expanded' => 0,
