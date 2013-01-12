@@ -61,6 +61,48 @@ function spark_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
+  // Enable CKEditor for both Filtered and Full HTML. For now, without any
+  // custom configuration.
+  $editor = entity_create('editor', array(
+    'format' => 'filtered_html',
+    'editor' => 'ckeditor',
+    'settings' => array(
+      'toolbar' => array(
+        'toolbar' => array(
+          array(
+            'Bold', 'Italic', '|',
+            'NumberedList', 'BulletedList', 'Blockquote', '|',
+            'JustifyLeft', 'JustifyCenter', 'JustifyRight', '|',
+            'Link', 'Unlink',
+          ),
+        ),
+        'format_list' => array('p'),
+        'style_list' => array(),
+      ),
+    ),
+  ));
+  $editor->save();
+  $editor = entity_create('editor', array(
+    'format' => 'full_html',
+    'editor' => 'ckeditor',
+    'settings' => array(
+      'toolbar' => array(
+        'toolbar' => array(
+          array(
+            'Source', '|', 'Bold', 'Italic', '|',
+            'NumberedList', 'BulletedList', 'Blockquote', '|',
+            'JustifyLeft', 'JustifyCenter', 'JustifyRight', '|',
+            'Link', 'Unlink', '|', 'Image', 'Maximize',
+          ),
+        ),
+        'format_list' => array('p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'),
+        'style_list' => array(),
+      ),
+    ),
+  ));
+  $editor->save();
+
+
   // Enable Bartik theme and set it as default theme instead of Stark.
   // @see system_install()
   $default_theme = 'bartik';
