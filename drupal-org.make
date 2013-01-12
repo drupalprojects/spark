@@ -22,7 +22,7 @@ projects[wysiwyg_ckeditor][download][branch] = 8.x-1.x
 projects[wysiwyg_ckeditor][subdir] = contrib
 
 ; CKEditor.module patch to add "true WYSIWYG" support (i.e. leverage #1886566).
-projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-14.patch
+projects[wysiwyg_ckeditor][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-14.patch
 
 ; Ember admin theme.
 ;projects[ember][type] = theme
