@@ -68,7 +68,7 @@ function spark_install() {
     'editor' => 'ckeditor',
     'settings' => array(
       'toolbar' => array(
-        'toolbar' => array(
+        'buttons' => array(
           array(
             'Bold', 'Italic', '|',
             'NumberedList', 'BulletedList', 'Blockquote', '|',
@@ -87,7 +87,7 @@ function spark_install() {
     'editor' => 'ckeditor',
     'settings' => array(
       'toolbar' => array(
-        'toolbar' => array(
+        'buttons' => array(
           array(
             'Source', '|', 'Bold', 'Italic', '|',
             'NumberedList', 'BulletedList', 'Blockquote', '|',
