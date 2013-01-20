@@ -20,7 +20,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][patch][1494860] = "http://drupal.org/files/ctools-dependent-js-broken-with-jquery-1.7-1494860-30.patch"
 
 projects[entity][type] = module
-projects[entity][version] = 1.0-rc3
+projects[entity][version] = 1.0
 projects[entity][subdir] = contrib
 
 projects[fape][type] = module
@@ -89,7 +89,7 @@ projects[gridbuilder][version] = 1.0-alpha2
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
-projects[layout][version] = 1.0-alpha4
+projects[layout][version] = 1.0-alpha5
 ;projects[layout][download][type] = git
 ;projects[layout][download][branch] = 7.x-1.x
 projects[layout][subdir] = contrib
