@@ -55,6 +55,7 @@ projects[resp_img][subdir] = contrib
 projects[ckeditor][type] = module
 projects[ckeditor][version] = 1.x-dev
 projects[ckeditor][subdir] = contrib
+projects[ckeditor][patch][1063482] = "http://drupal.org/files/ckeditor-libraries-1063482-10.patch"
 
 projects[admin_icons][type] = module
 projects[admin_icons][version] = 1.x-dev
