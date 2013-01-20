@@ -54,7 +54,7 @@ projects[resp_img][subdir] = contrib
 ; Contributed projects; Sparkish.
 projects[ckeditor][type] = module
 projects[ckeditor][version] = 1.12
-projects[ckeditor][version] = contrib
+projects[ckeditor][subdir] = contrib
 
 projects[admin_icons][type] = module
 projects[admin_icons][version] = 1.x-dev
