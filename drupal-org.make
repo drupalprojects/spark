@@ -105,7 +105,7 @@ projects[module_filter][subdir] = contrib
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.zip
-libraries[ckeditor][destination] = "modules/contrib/ckeditor"
+libraries[ckeditor][destination] = "sites/all/libraries/ckeditor"
 
 libraries[json2][download][type] = get
 libraries[json2][download][url] = https://github.com/douglascrockford/JSON-js/blob/master/json2.js
