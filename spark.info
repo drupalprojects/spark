@@ -8,6 +8,10 @@ php = 5.3
 ; a label for the software being installed.
 distribution_name = Spark
 
+; The exclusive flag auto-selects the profile during installation, if there
+; are no other exclusive ones.
+exclusive = TRUE
+
 ; Required modules (Core)
 ; Copy/pasted from standard.info
 dependencies[] = block
