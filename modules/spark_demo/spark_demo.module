@@ -316,7 +316,7 @@ function spark_demo_default_page_manager_pages() {
     $pane->pid = 'new-5';
     $pane->panel = 'sidebar_a';
     $pane->type = 'block';
-    $pane->subtype = 'system-navigation';
+    $pane->subtype = 'edit-edit';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -337,7 +337,7 @@ function spark_demo_default_page_manager_pages() {
     $pane->pid = 'new-6';
     $pane->panel = 'sidebar_a';
     $pane->type = 'block';
-    $pane->subtype = 'user-login';
+    $pane->subtype = 'system-navigation';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -356,6 +356,27 @@ function spark_demo_default_page_manager_pages() {
     $display->panels['sidebar_a'][2] = 'new-6';
     $pane = new stdClass();
     $pane->pid = 'new-7';
+    $pane->panel = 'sidebar_a';
+    $pane->type = 'block';
+    $pane->subtype = 'user-login';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 3;
+    $pane->locks = array();
+    $display->content['new-7'] = $pane;
+    $display->panels['sidebar_a'][3] = 'new-7';
+    $pane = new stdClass();
+    $pane->pid = 'new-8';
     $pane->panel = 'title';
     $pane->type = 'page_title';
     $pane->subtype = 'page_title';
@@ -376,10 +397,10 @@ function spark_demo_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-7'] = $pane;
-    $display->panels['title'][0] = 'new-7';
+    $display->content['new-8'] = $pane;
+    $display->panels['title'][0] = 'new-8';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = 'new-7';
+  $display->title_pane = 'new-8';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
 
