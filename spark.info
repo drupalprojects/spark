@@ -58,8 +58,8 @@ dependencies[] = editor
 dependencies[] = ckeditor
 
 ; Layouts
-dependencies[] = layout
-dependencies[] = page
+;dependencies[] = layout
+;dependencies[] = page
 
 ; @todo: Responsive layouts
 ;dependencies[] = rlayout
