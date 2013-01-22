@@ -54,8 +54,11 @@ projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
 projects[ckeditor][type] = module
-projects[ckeditor][version] = 1.x-dev
+;projects[ckeditor][version] = 1.x-dev
+projects[ckeditor][download][type] = git
+projects[ckeditor][download][branch] = 7.x-1.x
 projects[ckeditor][subdir] = contrib
+projects[ckeditor][patch][1895278] = "https://drupal.org/files/pass-events-to-textarea-1895278-1.patch"
 
 projects[admin_icons][type] = module
 projects[admin_icons][version] = 1.x-dev
