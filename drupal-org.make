@@ -12,6 +12,7 @@ projects[responsive_bartik][version] = 1.x-dev
 ;projects[responsive_bartik][download][type] = git
 ;projects[responsive_bartik][download][branch] = 7.x-1.x
 projects[responsive_bartik][subdir] = contrib
+projects[responsive_bartik][patch][1894590] = "http://drupal.org/files/resp-bartik-overflow.patch"
 
 projects[ctools][type] = module
 projects[ctools][version] = 1.2
