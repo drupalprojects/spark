@@ -41,27 +41,9 @@ dependencies[] = rdf
 dependencies[] = views
 dependencies[] = views_ui
 
-; Required modules (Contrib)
-;dependencies[] = fape
-;dependencies[] = json2
-dependencies[] = libraries
-;dependencies[] = module_filter
-;dependencies[] = page_manager
-;dependencies[] = panels
-;dependencies[] = panels_ipe
-
 ; Required projects (Sparkish)
 ;dependencies[] = spark_demo
 
 ; WYSIWYG
 dependencies[] = editor
 dependencies[] = ckeditor
-
-; Layouts
-;dependencies[] = layout
-;dependencies[] = page
-
-; @todo: Responsive layouts
-;dependencies[] = rlayout
-;dependencies[] = grid
-;dependencies[] = region
