@@ -1,0 +1,32 @@
+format: filtered_html
+editor: ckeditor
+settings:
+  toolbar:
+    buttons:
+      -
+        - Source
+        - '|'
+        - Bold
+        - Italic
+        - '|'
+        - NumberedList
+        - BulletedList
+        - Blockquote
+        - '|'
+        - JustifyLeft
+        - JustifyCenter
+        - JustifyRight
+        - '|'
+        - Link
+        - Unlink
+        - '|'
+        - Image
+        - Maximize
+    format_list:
+      - p
+      - h4
+      - h5
+      - h6
+    style_list:
+      - ''
+langcode: und
