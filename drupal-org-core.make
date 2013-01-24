@@ -27,6 +27,10 @@ projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500
 ; UNIFIED EDIT
 projects[drupal][patch][1882482] = http://drupal.org/files/unified-edit-prototype-demo-37.patch
 
+; CONTEXTUAL MODULE
+; Improves a11y support of contextual links and generally cleans up JS.
+projects[drupal][patch][849926] = http://drupal.org/files/contextual-contextual_links_keyboard_accessibility-849926-60.patch
+
 ; LAYOUT STUFF
 ; Configure master layouts.
 ; projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-1841584-55_0.patch
