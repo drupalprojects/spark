@@ -26,6 +26,8 @@ projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500
 
 ; UNIFIED EDIT
 projects[drupal][patch][1882482] = http://drupal.org/files/unified-edit-prototype-demo-37.patch
+; Edit pencils
+projects[drupal][patch][1898020] = http://drupal.org/files/1898020_unified-edit_1.patch
 
 ; CONTEXTUAL MODULE
 ; Improves a11y support of contextual links and generally cleans up JS.
