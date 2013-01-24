@@ -12,6 +12,7 @@
  * @see system_install()
  */
 function spark_install() {
+/*
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -60,7 +61,7 @@ function spark_install() {
   );
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
-
+*/
   // Enable CKEditor for both Filtered and Full HTML. For now, without any
   // custom configuration.
   $editor = entity_create('editor', array(
