@@ -18,6 +18,12 @@ projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
 ; Editor.module implementing an in-place editor.
 projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-1-do-not-test.patch
 
+; CKEDITOR MODULE
+; CKEditor.module
+projects[drupal][patch][1890502] = http://drupal.org/files/ckeditor_module-1890502-2.patch
+; CKEditor.module patch to add "true WYSIWYG" support (i.e. leverage #1886566).
+projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-16.patch
+
 ; UNIFIED EDIT
 projects[drupal][patch][1882482] = http://drupal.org/files/unified-edit-prototype-demo-37.patch
 
