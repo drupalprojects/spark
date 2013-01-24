@@ -12,6 +12,12 @@
  * @see system_install()
  */
 function spark_install() {
+  // First, do everything in standard profile.
+  // @todo: I would ideally like for this to be a simple call to
+  // module_load_install('standard') but that doesn't seem to fly.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
+
 /*
   // Add text formats.
   $filtered_html_format = array(
@@ -61,7 +67,7 @@ function spark_install() {
   );
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
-*/
+
   // Enable CKEditor for both Filtered and Full HTML. For now, without any
   // custom configuration.
   $editor = entity_create('editor', array(
@@ -469,4 +475,5 @@ We hope you enjoy playing with Spark! We greatly welcome collaboration; join us 
   );
 
   node_save($node);
+*/
 }
