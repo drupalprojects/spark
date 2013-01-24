@@ -16,7 +16,7 @@ projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
 
 ; EDITOR MODULE
 ; Editor.module implementing an in-place editor.
-projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-1-do-not-test.patch
+projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-15.patch
 
 ; CKEDITOR MODULE
 ; CKEditor.module
