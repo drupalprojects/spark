@@ -53,6 +53,7 @@ projects[resp_img][version] = 1.3
 projects[resp_img][subdir] = contrib
 
 ; Contributed projects; Sparkish.
+; @todo: Change this to peg to a stable release once 7.x-1.13 comes out.
 projects[ckeditor][type] = module
 ;projects[ckeditor][version] = 1.x-dev
 projects[ckeditor][download][type] = git
@@ -71,6 +72,7 @@ projects[navbar][version] = 1.0-alpha3
 ;projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
+; @todo: Change this to peg to a stable release once 1.0-alpha6 is tagged.
 projects[edit][type] = module
 ;projects[edit][version] = 1.0-alpha5
 projects[edit][download][type] = git
@@ -78,7 +80,7 @@ projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
-projects[ember][version] = 1.0-alpha4
+projects[ember][version] = 1.0-alpha5
 ;projects[ember][download][type] = git
 ;projects[ember][download][branch] = 7.x-1.x
 projects[ember][subdir] = contrib
