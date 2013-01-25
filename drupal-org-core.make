@@ -24,8 +24,14 @@ projects[drupal][patch][1890502] = http://drupal.org/files/ckeditor_module-18905
 ; CKEditor.module patch to add "true WYSIWYG" support (i.e. leverage #1886566).
 projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-16.patch
 
+; CONTEXTUAL MODULE
+; Improves a11y support of contextual links and generally cleans up JS.
+projects[drupal][patch][849926] = http://drupal.org/files/contextual-contextual_links_keyboard_accessibility-849926-60.patch
+
 ; UNIFIED EDIT
 projects[drupal][patch][1882482] = http://drupal.org/files/unified-edit-prototype-demo-37.patch
+; Edit pencils
+projects[drupal][patch][1898020] = http://drupal.org/files/1898020_unified-edit_10.patch
 
 ; LAYOUT STUFF
 ; Configure master layouts.
