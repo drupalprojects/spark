@@ -61,6 +61,8 @@ projects[views][subdir] = contrib
 projects[ckeditor][type] = module
 ;projects[ckeditor][version] = 1.x-dev
 projects[ckeditor][download][type] = git
+; Wed, 23 Jan 2013 09:32:00 +0000 (10:32 +0100)
+projects[ckeditor][download][revision] = a5eaedb5f673fe447f82a00e36f178ce5e4d6516
 projects[ckeditor][download][branch] = 7.x-1.x
 projects[ckeditor][subdir] = contrib
 
@@ -78,9 +80,9 @@ projects[navbar][subdir] = contrib
 
 ; @todo: Change this to peg to a stable release once 1.0-alpha6 is tagged.
 projects[edit][type] = module
-;projects[edit][version] = 1.0-alpha5
-projects[edit][download][type] = git
-projects[edit][download][branch] = 7.x-1.x
+projects[edit][version] = 1.0-alpha6
+;projects[edit][download][type] = git
+;projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
