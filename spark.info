@@ -43,6 +43,8 @@ dependencies[] = module_filter
 dependencies[] = page_manager
 dependencies[] = panels
 dependencies[] = panels_ipe
+dependencies[] = views
+dependencies[] = views_ui
 
 ; Required projects (Sparkish)
 dependencies[] = ckeditor

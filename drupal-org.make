@@ -52,6 +52,10 @@ projects[resp_img][type] = module
 projects[resp_img][version] = 1.3
 projects[resp_img][subdir] = contrib
 
+projects[views][type] = module
+projects[views][version] = 3.5 
+projects[views][subdir] = contrib
+
 ; Contributed projects; Sparkish.
 ; @todo: Change this to peg to a stable release once 7.x-1.13 comes out.
 projects[ckeditor][type] = module
