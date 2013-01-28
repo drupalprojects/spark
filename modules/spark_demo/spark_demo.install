@@ -14,6 +14,7 @@ function spark_demo_install() {
   // Create a new 'every_field' node for testing inline editing.
   $node = new stdClass();
   $node->uid = 1;
+  $node->language = 'und';
   $node->type = 'every_field';
   $node->status = 1;
   $node->promote = 1;

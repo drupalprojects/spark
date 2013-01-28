@@ -411,6 +411,7 @@ function spark_install() {
 
   $node = new stdClass();
   $node->uid = 1;
+  $node->language = 'und';
   $node->type = 'page';
   $node->status = 1;
   $node->title = $t('About Us');
