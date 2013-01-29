@@ -38,3 +38,5 @@ projects[drupal][patch][1898020] = http://drupal.org/files/1898020_unified-edit_
 ; projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-1841584-55_0.patch
 ; Landing page creation.
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
+; Layout previewer
+projects[drupal][patch][1880606] = http://drupal.org/files/1880606_breakpoint-theme-ui_5.patch

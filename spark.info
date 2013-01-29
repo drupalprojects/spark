@@ -25,6 +25,7 @@ dependencies[] = custom_block
 dependencies[] = edit
 dependencies[] = help
 dependencies[] = image
+dependencies[] = layout
 dependencies[] = menu
 dependencies[] = number
 dependencies[] = options
