@@ -45,7 +45,7 @@ We hope you enjoy playing with Spark! We greatly welcome collaboration; join us 
   '@module-layout-url' => 'http://drupal.org/project/layout',
   '@module-grid-url' => 'http://drupal.org/project/gridbuilder',
   '@theme-ember-url' => 'http://drupal.org/project/ember',
-  '@aloha-url' => 'http://aloha-editor.org/',
+  '@ckeditor-url' => 'http://ckeditor.com/',
   '@admin-layout-url' => url('admin/structure/panels/layouts/list/default/edit'),
 ));
   $node->body['und'][0]['format'] = 'filtered_html';
