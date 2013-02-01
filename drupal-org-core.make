@@ -6,7 +6,7 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Wed Jan 23 19:52:16 2013 -0800
-projects[drupal][download][revision] = da31660e31ed88f935f577f922728a1341c9a7f5
+projects[drupal][download][revision] = cf8827418e94922c60e51486e5f2153a277dd665
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -14,24 +14,33 @@ projects[drupal][download][branch] = 8.x
 ; Fix dumb notice on install.
 projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
 
-; EDITOR MODULE
-; Editor.module implementing an in-place editor.
-projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-15.patch
-
 ; CKEDITOR MODULE
-; CKEditor.module
-projects[drupal][patch][1890502] = http://drupal.org/files/ckeditor_module-1890502-2.patch
-; CKEditor.module patch to add "true WYSIWYG" support (i.e. leverage #1886566).
-projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-16.patch
+; "Add CKEditor module to core"
+projects[drupal][patch][1890502] = http://drupal.org/files/core-ckeditor-1890502-89.patch
 
-; CONTEXTUAL MODULE
-; Improves a11y support of contextual links and generally cleans up JS.
-projects[drupal][patch][849926] = http://drupal.org/files/contextual-contextual_links_keyboard_accessibility-849926-60.patch
+; EDITOR MODULE
+; "Update CKEditor library"
+projects[drupal][patch][1905424] = http://drupal.org/files/ckeditor_library_update_d8_branch-1905424-4.patch
+; "Make WYSIWYG editors available for in-place editing"
+projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-15.patch
+; "CKEditor + Edit"
+projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-17.patch
+
+
+; OVERLAY
+; "Prototype simpler overlay look focused on short task accomplishment"
+projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-10.patch
+
+; BLOCK MODULE
+; "Simplify contextual administration experiences (eg. blocks)"
+projects[drupal][patch][1880168] = http://drupal.org/files/1880168_simply-contextuals_29.patch
 
 ; UNIFIED EDIT
-projects[drupal][patch][1882482] = http://drupal.org/files/unified-edit-prototype-demo-37.patch
-; Edit pencils
-projects[drupal][patch][1898020] = http://drupal.org/files/1898020_unified-edit_10.patch
+; Prototype code to glue together unified edit.
+;
+; "Reconcile "Edit" toolbar option with local tasks (tabs) and contextual links for editing"
+projects[drupal][patch][1874664] = http://drupal.org/files/1874664_pencils_56-do-not-test.patch
+
 
 ; LAYOUT STUFF
 ; Configure master layouts.
@@ -39,4 +48,4 @@ projects[drupal][patch][1898020] = http://drupal.org/files/1898020_unified-edit_
 ; Landing page creation.
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
-projects[drupal][patch][1880606] = http://drupal.org/files/1880606_breakpoint-theme-ui_5.patch
+projects[drupal][patch][1880606] = http://drupal.org/files/1880606_breakpoint-theme-ui_8.patch
