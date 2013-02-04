@@ -16,7 +16,7 @@ projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
 
 ; CKEDITOR MODULE
 ; "Add CKEditor module to core"
-projects[drupal][patch][1890502] = http://drupal.org/files/core-ckeditor-1890502-89.patch
+projects[drupal][patch][1890502] = http://drupal.org/files/ckeditor_module-1890502-114.patch
 
 ; EDITOR MODULE
 ; "Update CKEditor library"
