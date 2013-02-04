@@ -29,11 +29,11 @@ projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500
 
 ; OVERLAY
 ; "Prototype simpler overlay look focused on short task accomplishment"
-projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-10.patch
+projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-32.patch
 
 ; BLOCK MODULE
 ; "Simplify contextual administration experiences (eg. blocks)"
-projects[drupal][patch][1880168] = http://drupal.org/files/1880168_simply-contextuals_29.patch
+projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contextual-30.patch
 
 ; UNIFIED EDIT
 ; Prototype code to glue together unified edit.
