@@ -18,6 +18,10 @@ projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
 ; "Add CKEditor module to core"
 projects[drupal][patch][1890502] = http://drupal.org/files/ckeditor_module-1890502-114.patch
 
+; EDIT MODULE
+; Update edit modules implementation of hook_toolbar; refresh the design to match current mockups
+projects[drupal][patch][1908624] = https://drupal.org/files/edit-toolbar_1908624-1.patch
+
 ; EDITOR MODULE
 ; "Update CKEditor library"
 projects[drupal][patch][1905424] = http://drupal.org/files/ckeditor_library_update_d8_branch-1905424-4.patch
@@ -25,7 +29,6 @@ projects[drupal][patch][1905424] = http://drupal.org/files/ckeditor_library_upda
 projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-15.patch
 ; "CKEditor + Edit"
 projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-17.patch
-
 
 ; OVERLAY
 ; "Prototype simpler overlay look focused on short task accomplishment"
@@ -41,7 +44,6 @@ projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contex
 ; "Reconcile "Edit" toolbar option with local tasks (tabs) and contextual links for editing"
 projects[drupal][patch][1874664] = http://drupal.org/files/1874664_pencils_56-do-not-test.patch
 
-
 ; LAYOUT STUFF
 ; Configure master layouts.
 ; projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-1841584-55_0.patch
@@ -49,3 +51,7 @@ projects[drupal][patch][1874664] = http://drupal.org/files/1874664_pencils_56-do
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
 projects[drupal][patch][1880606] = http://drupal.org/files/1880606_breakpoint-theme-ui_8.patch
+
+; TOOLBAR MODULE
+; BUG: Remove unused code from toolbar_pre_render_item that throws a warning on custom themed tabs
+projects[drupal][patch][1908906] = https://drupal.org/files/toolbar-prerender-warning_1908906-1.patch
