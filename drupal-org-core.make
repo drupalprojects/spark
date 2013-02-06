@@ -42,7 +42,7 @@ projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contex
 ; Prototype code to glue together unified edit.
 ;
 ; "Reconcile "Edit" toolbar option with local tasks (tabs) and contextual links for editing"
-projects[drupal][patch][1874664] = http://drupal.org/files/1874664_pencils_56-do-not-test.patch
+projects[drupal][patch][1874664] = http://drupal.org/files/pencils-1874664-65.patch
 
 ; LAYOUT STUFF
 ; Configure master layouts.
