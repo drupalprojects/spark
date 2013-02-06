@@ -50,7 +50,7 @@ projects[drupal][patch][1874664] = http://drupal.org/files/1874664_pencils_56-do
 ; Landing page creation.
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
-projects[drupal][patch][1880606] = http://drupal.org/files/1880606_breakpoint-theme-ui_8.patch
+projects[drupal][patch][1741498] = https://drupal.org/files/1741498_mobile-preview_7.patch
 
 ; TOOLBAR MODULE
 ; BUG: Remove unused code from toolbar_pre_render_item that throws a warning on custom themed tabs
