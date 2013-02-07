@@ -6,7 +6,7 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Fri Feb 1 12:35:27 2013 -0500
-projects[drupal][download][revision] = cf8827418e94922c60e51486e5f2153a277dd665
+projects[drupal][download][revision] = 8787384e111a45f971e11a4dee5b6fdcb95b2f8f
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -50,7 +50,7 @@ projects[drupal][patch][1874664] = http://drupal.org/files/pencils-1874664-70.pa
 ; Landing page creation.
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
-projects[drupal][patch][1741498] = https://drupal.org/files/1741498_mobile-preview_7.patch
+projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-11_0.patch
 
 ; TOOLBAR MODULE
 ; BUG: Remove unused code from toolbar_pre_render_item that throws a warning on custom themed tabs
