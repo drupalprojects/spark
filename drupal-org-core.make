@@ -6,17 +6,13 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Fri Feb 1 12:35:27 2013 -0500
-projects[drupal][download][revision] = 8787384e111a45f971e11a4dee5b6fdcb95b2f8f
+projects[drupal][download][revision] = 81d604958f8d12d20905daf99797fb4c4555fa31
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
 
 ; Fix dumb notice on install.
 projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
-
-; CKEDITOR MODULE
-; "Add CKEditor module to core"
-projects[drupal][patch][1890502] = http://drupal.org/files/ckeditor_module-1890502-114.patch
 
 ; EDIT MODULE
 ; Update edit modules implementation of hook_toolbar; refresh the design to match current mockups
