@@ -5,7 +5,7 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Fri Feb 1 12:35:27 2013 -0500
+; Fri, 8 Feb 2013 01:00:40 +0000 (12:00 +1100)
 projects[drupal][download][revision] = 81d604958f8d12d20905daf99797fb4c4555fa31
 projects[drupal][download][branch] = 8.x
 
