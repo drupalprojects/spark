@@ -5,8 +5,8 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Fri, 8 Feb 2013 01:00:40 +0000 (12:00 +1100)
-projects[drupal][download][revision] = 81d604958f8d12d20905daf99797fb4c4555fa31
+; Sat, 9 Feb 2013 11:56:12 +0000 (03:56 -0800)
+projects[drupal][download][revision] = 0a42fa60e0bec915ac82487dc30828ae476e1080
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -15,12 +15,9 @@ projects[drupal][download][branch] = 8.x
 projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
 
 ; EDIT MODULE
-; Update edit modules implementation of hook_toolbar; refresh the design to match current mockups
-projects[drupal][patch][1908624] = https://drupal.org/files/edit-toolbar_1908624-1.patch
+; None currently :)
 
 ; EDITOR MODULE
-; "Update CKEditor library"
-projects[drupal][patch][1905424] = http://drupal.org/files/ckeditor_library_update_d8_branch-1905424-4.patch
 ; "Make WYSIWYG editors available for in-place editing"
 projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-15.patch
 ; "CKEditor + Edit"
@@ -35,10 +32,8 @@ projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-proto
 projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contextual-30.patch
 
 ; UNIFIED EDIT
-; Prototype code to glue together unified edit.
-;
 ; "Reconcile "Edit" toolbar option with local tasks (tabs) and contextual links for editing"
-projects[drupal][patch][1874664] = http://drupal.org/files/pencils-1874664-86.patch
+projects[drupal][patch][1874664] = http://drupal.org/files/pencils-1874664-91.patch
 
 ; LAYOUT STUFF
 ; Configure master layouts.
