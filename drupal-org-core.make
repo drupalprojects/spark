@@ -29,7 +29,7 @@ projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-proto
 
 ; BLOCK MODULE
 ; "Simplify contextual administration experiences (eg. blocks)"
-projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contextual-30.patch
+projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contextual-42.patch
 
 ; UNIFIED EDIT
 ; "Reconcile "Edit" toolbar option with local tasks (tabs) and contextual links for editing"
