@@ -33,7 +33,7 @@ projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contex
 
 ; UNIFIED EDIT
 ; "Reconcile "Edit" toolbar option with local tasks (tabs) and contextual links for editing"
-projects[drupal][patch][1874664] = http://drupal.org/files/pencils-1874664-93.patch
+projects[drupal][patch][1874664] = http://drupal.org/files/pencils-1874664-101.patch
 ; Generalize the overlay tabbing management into a utility library
 projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-2.patch
 ; Accessibility followup for Edit tab toggle of contextual links for in-place editing.
