@@ -19,7 +19,7 @@ projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
 
 ; EDITOR MODULE
 ; "Make WYSIWYG editors available for in-place editing"
-projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-15.patch
+projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-25.patch
 ; "CKEditor + Edit"
 projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-17.patch
 
