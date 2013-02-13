@@ -6,7 +6,7 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Sat, 9 Feb 2013 11:56:12 +0000 (03:56 -0800)
-projects[drupal][download][revision] = 5038ed805ba5631088edeaab19c7eb434ab3f88a
+projects[drupal][download][revision] = 298db7a05b1a6a4f181cc000af36f6a650a707df
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -32,12 +32,10 @@ projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-proto
 projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contextual-42.patch
 
 ; UNIFIED EDIT
-; "Reconcile "Edit" toolbar option with local tasks (tabs) and contextual links for editing"
-projects[drupal][patch][1874664] = http://drupal.org/files/pencils-1874664-103.patch
 ; Generalize the overlay tabbing management into a utility library
 projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-2.patch
 ; Accessibility followup for Edit tab toggle of contextual links for in-place editing.
-projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-1.patch
+projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-11.patch
 
 ; LAYOUT STUFF
 ; Configure master layouts.
@@ -45,8 +43,4 @@ projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-
 ; Landing page creation.
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
-projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-12.patch
-
-; TOOLBAR MODULE
-; BUG: Remove unused code from toolbar_pre_render_item that throws a warning on custom themed tabs
-projects[drupal][patch][1908906] = https://drupal.org/files/toolbar-prerender-warning_1908906-1.patch
+projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-17.patch
