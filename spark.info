@@ -32,6 +32,7 @@ dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = dblog
+dependencies[] = responsive_preview
 dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = toolbar

@@ -6,7 +6,7 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Sat, 9 Feb 2013 11:56:12 +0000 (03:56 -0800)
-projects[drupal][download][revision] = 298db7a05b1a6a4f181cc000af36f6a650a707df
+projects[drupal][download][revision] = b3301476a2a2666286c2d761f741e0a53e75962e
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -43,4 +43,4 @@ projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-
 ; Landing page creation.
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
-projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-17.patch
+projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-18_0.patch
