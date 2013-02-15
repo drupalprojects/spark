@@ -6,7 +6,7 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Sat, 9 Feb 2013 11:56:12 +0000 (03:56 -0800)
-projects[drupal][download][revision] = b3301476a2a2666286c2d761f741e0a53e75962e
+projects[drupal][download][revision] = 60d523d898487ca29b72dc372c56fa122c91143e
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -43,4 +43,8 @@ projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-
 ; Landing page creation.
 ; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
-projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-18_0.patch
+projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-26.patch
+
+; TOOLBAR
+; Toolbar tabs RTL styling is not applied
+projects[drupal][patch][1917816] = https://drupal.org/files/toolbar-rtl-1917816-1.patch
