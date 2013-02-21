@@ -27,9 +27,9 @@ projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500
 ; "Prototype simpler overlay look focused on short task accomplishment"
 projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-55.patch
 
-; BLOCK MODULE
-; "Simplify contextual administration experiences (eg. blocks)"
-projects[drupal][patch][1880168] = http://drupal.org/files/simplify-block-contextual-42.patch
+; FORMS
+; "Introduce top-level sections for all forms" (only applicable to blocks now)
+projects[drupal][patch][1880168] = http://drupal.org/files/block-sectioned-form-78.patch
 
 ; UNIFIED EDIT
 ; Generalize the overlay tabbing management into a utility library
@@ -38,9 +38,5 @@ projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-2.pat
 projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-11.patch
 
 ; LAYOUT STUFF
-; Configure master layouts.
-; projects[drupal][patch][1841584] = http://drupal.org/files/display-ui-1841584-55_0.patch
-; Landing page creation.
-; projects[drupal][patch][1840500] = http://drupal.org/files/landing-pages-20.patch
 ; Layout previewer
 projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-26.patch
