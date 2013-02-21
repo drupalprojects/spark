@@ -5,8 +5,8 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Sat, 9 Feb 2013 11:56:12 +0000 (03:56 -0800)
-projects[drupal][download][revision] = 466fac1e6819d10b4dd8827254628ec5fd3204c7
+; Thu Feb 21 10:30:17 2013 +0000
+projects[drupal][download][revision] = 23a983dfadb6ad9afffae21eb7e48d63b7ac7302
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -25,7 +25,7 @@ projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500
 
 ; OVERLAY
 ; "Prototype simpler overlay look focused on short task accomplishment"
-projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-55.patch
+projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-58.patch
 
 ; FORMS
 ; "Introduce top-level sections for all forms" (only applicable to blocks now)
