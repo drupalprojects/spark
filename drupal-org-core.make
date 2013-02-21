@@ -29,7 +29,7 @@ projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-proto
 
 ; FORMS
 ; "Introduce top-level sections for all forms" (only applicable to blocks now)
-projects[drupal][patch][1880168] = http://drupal.org/files/block-sectioned-form-78.patch
+projects[drupal][patch][1880168] = http://drupal.org/files/block-sectioned-form-80.patch
 
 ; UNIFIED EDIT
 ; Generalize the overlay tabbing management into a utility library
