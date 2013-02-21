@@ -25,7 +25,7 @@ projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500
 
 ; OVERLAY
 ; "Prototype simpler overlay look focused on short task accomplishment"
-projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-52.patch
+projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-55.patch
 
 ; BLOCK MODULE
 ; "Simplify contextual administration experiences (eg. blocks)"
