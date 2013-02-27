@@ -6,7 +6,7 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 ; Thu Feb 21 10:30:17 2013 +0000
-projects[drupal][download][revision] = 23a983dfadb6ad9afffae21eb7e48d63b7ac7302
+projects[drupal][download][revision] = 7da4cad96386021c4f84c5b325fe75ac0ebcb8bf
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -39,4 +39,4 @@ projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-
 
 ; LAYOUT STUFF
 ; Layout previewer
-projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-26.patch
+projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-60.patch
