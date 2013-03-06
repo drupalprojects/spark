@@ -27,6 +27,7 @@ function spark_install() {
   $node->uid = 1;
   $node->type = 'page';
   $node->status = 1;
+  $node->langcode = 'en';
   $node->title = $t('About Us');
   $node->body['und'][0]['value'] = $t('Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
 
@@ -47,6 +48,7 @@ Completely synergize resource sucking relationships via premier niche markets. P
   $node = entity_create('node', array());
   $node->uid = 1;
   $node->type = 'article';
+  $node->langcode = 'en';
   $node->status = 1;
   $node->promote = 1;
 
