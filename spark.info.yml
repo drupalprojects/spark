@@ -44,3 +44,4 @@ dependencies:
   - views_ui
   - editor
   - ckeditor
+  - testswarm

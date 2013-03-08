@@ -39,4 +39,4 @@ projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-
 
 ; LAYOUT STUFF
 ; Layout previewer
-projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-60.patch
+projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-67.patch
