@@ -71,6 +71,10 @@ projects[admin_icons][version] = 1.x-dev
 ;projects[admin_icons][download][branch] = 7.x-1.x
 projects[admin_icons][subdir] = contrib
 
+projects[breakpoints][type] = module
+projects[breakpoints][version] = 1.0
+projects[breakpoints][subdir] = contrib
+
 projects[navbar][type] = module
 projects[navbar][version] = 1.0-alpha5
 ;projects[navbar][download][type] = git
@@ -104,6 +108,12 @@ projects[layout][subdir] = contrib
 projects[every_field][type] = module
 projects[every_field][version] = 1.x-dev
 projects[every_field][subdir] = contrib
+
+projects[responsive_preview][type] = module
+projects[responsive_preview][version] = 1.0-alpha1
+;projects[responsive_preview][download][type] = git
+;projects[responsive_preview][download][branch] = 7.x-1.x
+projects[responsive_preview][subdir] = contrib
 
 ; Contributed modules; UX++
 projects[module_filter][type] = module

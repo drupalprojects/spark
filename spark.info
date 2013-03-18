@@ -34,6 +34,7 @@ dependencies[] = shortcut
 dependencies[] = taxonomy
 
 ; Required modules (Contrib)
+dependencies[] = breakpoints
 dependencies[] = entity
 dependencies[] = fape
 dependencies[] = jquery_update
@@ -53,4 +54,5 @@ dependencies[] = gridbuilder
 dependencies[] = admin_icons
 dependencies[] = layout
 dependencies[] = navbar
+dependencies[] = responsive_preview
 dependencies[] = spark_demo
