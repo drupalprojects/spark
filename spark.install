@@ -18,6 +18,9 @@ function spark_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
+  // Temporarily disable sample content creation until the code is fixed for node ng.
+  return;
+
   // Create an "About Us" page, for testing content links in Aloha.
   // @todo: It's really stupid we have to do this here instead of in spark_demo module,
   // but 'page' doesn't exist yet when spark_demo_install() runs. :(
