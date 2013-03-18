@@ -5,38 +5,34 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Thu Feb 21 10:30:17 2013 +0000
-projects[drupal][download][revision] = 7da4cad96386021c4f84c5b325fe75ac0ebcb8bf
+; Mon, 18 Mar 2013 12:40:12 +0000 (05:40 -0700)
+projects[drupal][download][revision] = 1bec76308fff931911ca94c5617249f127bc80ee
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
-
-; Fix dumb notice on install.
-projects[drupal][patch][1793042] = http://drupal.org/files/update-langcode.patch
+; None for now.
 
 ; EDIT MODULE
 ; None currently :)
 
 ; EDITOR MODULE
 ; "Make WYSIWYG editors available for in-place editing"
-projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-25.patch
-; "CKEditor + Edit"
-projects[drupal][patch][1873500] = http://drupal.org/files/ckeditor_edit-1873500-17.patch
+projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1886566-44.patch
 
 ; OVERLAY
 ; "Prototype simpler overlay look focused on short task accomplishment"
-projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-prototype-58.patch
+projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-65.patch
 
 ; FORMS
 ; "Introduce top-level sections for all forms" (only applicable to blocks now)
-projects[drupal][patch][1880168] = http://drupal.org/files/block-sectioned-form-80.patch
+projects[drupal][patch][1880168] = http://drupal.org/files/block-sectioned-form-85-for-simpler-overlay.patch
 
 ; UNIFIED EDIT
 ; Generalize the overlay tabbing management into a utility library
-projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-2.patch
+projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-9.patch
 ; Accessibility followup for Edit tab toggle of contextual links for in-place editing.
 projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-11.patch
 
 ; LAYOUT STUFF
 ; Layout previewer
-projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-67.patch
+projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-93.patch
