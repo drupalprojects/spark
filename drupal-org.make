@@ -52,7 +52,7 @@ projects[resp_img][version] = 1.3
 projects[resp_img][subdir] = contrib
 
 projects[views][type] = module
-projects[views][version] = 3.5 
+projects[views][version] = 3.5
 projects[views][subdir] = contrib
 
 ; Contributed projects; Sparkish.
@@ -72,7 +72,7 @@ projects[admin_icons][version] = 1.x-dev
 projects[admin_icons][subdir] = contrib
 
 projects[navbar][type] = module
-projects[navbar][version] = 1.0-alpha4
+projects[navbar][version] = 1.0-alpha5
 ;projects[navbar][download][type] = git
 ;projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
