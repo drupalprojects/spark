@@ -12,9 +12,3 @@ core = 8.x
 ;projects[ember][download][type] = git
 ;projects[ember][download][branch] = 8.x-1.x
 ;projects[ember][subdir] = contrib
-
-; Testswarm.
-projects[testswarm][type] = module
-projects[testswarm][download][type] = git
-projects[testswarm][download][branch] = 8.x-1.x
-projects[testswarm][subdir] = contrib
