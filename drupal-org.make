@@ -77,7 +77,6 @@ projects[navbar][version] = 1.0-alpha5
 ;projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
-; @todo: Change this to peg to a stable release once 1.0-alpha6 is tagged.
 projects[edit][type] = module
 projects[edit][version] = 1.0-alpha6
 ;projects[edit][download][type] = git
