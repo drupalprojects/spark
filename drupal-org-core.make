@@ -21,7 +21,7 @@ projects[drupal][patch][1886566] = http://drupal.org/files/editor_true_wysiwyg-1
 
 ; OVERLAY
 ; "Prototype simpler overlay look focused on short task accomplishment"
-projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-65.patch
+projects[drupal][patch][1889150] = http://drupal.org/files/simpler-overlay-1889150-69.patch
 
 ; FORMS
 ; "Introduce top-level sections for all forms" (only applicable to blocks now)
@@ -33,6 +33,15 @@ projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-9.pat
 ; Accessibility followup for Edit tab toggle of contextual links for in-place editing.
 projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-11.patch
 
-; LAYOUT STUFF
-; Layout previewer
+; TOOLBAR
+; "Vertical toolbar doesn't work with overlay (measure/track displacing elements better + provide change events for them)"
+projects[drupal][patch][1947122] = http://drupal.org/files/spark-toolbar-overlay-1947122-3.patch
+
+; ACCESSIBILITY
+; "Generalize the overlay tabbing management into a utility library"
+; This is incompatible with some of the overlay-adjusting patches above.
+; projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-12_0.patch
+
+; MOBILE PREVIEW
+; "Add a mobile preview bar to Drupal core"
 projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-93.patch
