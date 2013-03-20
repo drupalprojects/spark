@@ -126,5 +126,5 @@ libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.zip
 
 libraries[json2][download][type] = get
-libraries[json2][download][url] = https://github.com/douglascrockford/JSON-js/blob/master/json2.js
+libraries[json2][download][url] = https://raw.github.com/douglascrockford/JSON-js/master/json2.js
 libraries[json2][revision] = fc535e9cc8fa78bbf45a85835c830e7f799a5084
