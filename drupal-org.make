@@ -96,7 +96,7 @@ projects[gridbuilder][version] = 1.0-alpha2
 projects[gridbuilder][subdir] = contrib
 
 projects[layout][type] = module
-projects[layout][version] = 1.0-alpha5
+projects[layout][version] = 1.0-alpha6
 ;projects[layout][download][type] = git
 ;projects[layout][download][branch] = 7.x-1.x
 projects[layout][subdir] = contrib
