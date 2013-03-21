@@ -36,7 +36,6 @@ dependencies[] = taxonomy
 ; Required modules (Contrib)
 dependencies[] = breakpoints
 dependencies[] = entity
-dependencies[] = fape
 dependencies[] = jquery_update
 dependencies[] = json2
 dependencies[] = libraries

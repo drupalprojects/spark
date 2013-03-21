@@ -23,10 +23,6 @@ projects[entity][type] = module
 projects[entity][version] = 1.0
 projects[entity][subdir] = contrib
 
-projects[fape][type] = module
-projects[fape][version] = 1.1
-projects[fape][subdir] = contrib
-
 projects[jquery_update][type] = module
 projects[jquery_update][version] = 2.x-dev
 projects[jquery_update][subdir] = contrib
@@ -82,7 +78,7 @@ projects[navbar][version] = 1.0-alpha5
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-projects[edit][version] = 1.0-alpha6
+projects[edit][version] = 1.0-alpha7
 ;projects[edit][download][type] = git
 ;projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
