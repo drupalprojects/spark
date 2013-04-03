@@ -116,6 +116,10 @@ projects[module_filter][type] = module
 projects[module_filter][version] = 1.7
 projects[module_filter][subdir] = contrib
 
+projects[simplified_menu_admin][type] = module
+projects[simplified_menu_admin][version] = 1.0-beta2
+projects[simplified_menu_admin][subdir] = contrib
+
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 libraries[ckeditor][download][type] = get

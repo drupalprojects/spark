@@ -45,6 +45,7 @@ dependencies[] = panels
 dependencies[] = panels_ipe
 dependencies[] = views
 dependencies[] = views_ui
+dependencies[] = simplified_menu_admin
 
 ; Required projects (Sparkish)
 dependencies[] = ckeditor
