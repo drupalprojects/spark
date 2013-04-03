@@ -72,7 +72,7 @@ projects[breakpoints][version] = 1.0
 projects[breakpoints][subdir] = contrib
 
 projects[navbar][type] = module
-projects[navbar][version] = 1.0-alpha5
+projects[navbar][version] = 1.0-alpha6
 ;projects[navbar][download][type] = git
 ;projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
