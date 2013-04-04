@@ -14,10 +14,8 @@ projects[responsive_bartik][download][branch] = 7.x-1.x
 projects[responsive_bartik][subdir] = contrib
 
 projects[ctools][type] = module
-projects[ctools][version] = 1.2
+projects[ctools][version] = 1.3
 projects[ctools][subdir] = contrib
-; Fix incompatibilities with jQuery 1.7.
-projects[ctools][patch][1494860] = "http://drupal.org/files/ctools-dependent-js-broken-with-jquery-1.7-1494860-30.patch"
 
 projects[entity][type] = module
 projects[entity][version] = 1.0
@@ -48,7 +46,7 @@ projects[resp_img][version] = 1.3
 projects[resp_img][subdir] = contrib
 
 projects[views][type] = module
-projects[views][version] = 3.5
+projects[views][version] = 3.6
 projects[views][subdir] = contrib
 
 ; Contributed projects; Sparkish.
