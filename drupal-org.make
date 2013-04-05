@@ -54,8 +54,8 @@ projects[views][subdir] = contrib
 projects[ckeditor][type] = module
 ;projects[ckeditor][version] = 1.x-dev
 projects[ckeditor][download][type] = git
-; Wed, 23 Jan 2013 09:32:00 +0000 (10:32 +0100)
-projects[ckeditor][download][revision] = a5eaedb5f673fe447f82a00e36f178ce5e4d6516
+; Thu, 4 Apr 2013 18:50:13 +0000 (20:50 +0200)
+projects[ckeditor][download][revision] = 83312a38193cc60b34d230f68fe3ffe9bd119ec3
 projects[ckeditor][download][branch] = 7.x-1.x
 projects[ckeditor][subdir] = contrib
 
