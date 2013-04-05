@@ -76,7 +76,7 @@ projects[navbar][version] = 1.0-alpha7
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-projects[edit][version] = 1.0-alpha8
+projects[edit][version] = 1.0-alpha9
 ;projects[edit][download][type] = git
 ;projects[edit][download][branch] = 7.x-1.x
 projects[edit][subdir] = contrib
