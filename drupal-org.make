@@ -59,12 +59,6 @@ projects[ckeditor][download][revision] = 83312a38193cc60b34d230f68fe3ffe9bd119ec
 projects[ckeditor][download][branch] = 7.x-1.x
 projects[ckeditor][subdir] = contrib
 
-projects[admin_icons][type] = module
-projects[admin_icons][version] = 1.x-dev
-;projects[admin_icons][download][type] = git
-;projects[admin_icons][download][branch] = 7.x-1.x
-projects[admin_icons][subdir] = contrib
-
 projects[breakpoints][type] = module
 projects[breakpoints][version] = 1.0
 projects[breakpoints][subdir] = contrib
