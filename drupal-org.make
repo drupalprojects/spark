@@ -41,9 +41,9 @@ projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patc
 ; Fix for strict warning on home page.
 projects[panels][patch][1632898] = "http://drupal.org/files/1632898-10.patch"
 
-projects[resp_img][type] = module
-projects[resp_img][version] = 1.3
-projects[resp_img][subdir] = contrib
+projects[picture][type] = module
+projects[picture][version] = 1.1
+projects[picture][subdir] = contrib
 
 projects[views][type] = module
 projects[views][version] = 3.6
