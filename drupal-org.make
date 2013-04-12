@@ -50,13 +50,8 @@ projects[views][version] = 3.6
 projects[views][subdir] = contrib
 
 ; Contributed projects; Sparkish.
-; @todo: Change this to peg to a stable release once 7.x-1.13 comes out.
 projects[ckeditor][type] = module
-;projects[ckeditor][version] = 1.x-dev
-projects[ckeditor][download][type] = git
-; Thu, 4 Apr 2013 18:50:13 +0000 (20:50 +0200)
-projects[ckeditor][download][revision] = 83312a38193cc60b34d230f68fe3ffe9bd119ec3
-projects[ckeditor][download][branch] = 7.x-1.x
+projects[ckeditor][version] = 1.13
 projects[ckeditor][subdir] = contrib
 
 projects[breakpoints][type] = module
