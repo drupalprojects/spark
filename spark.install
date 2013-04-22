@@ -33,11 +33,11 @@ function spark_install() {
   );
   $node = entity_create('node', $edit_node);
   $node_body = array(
-    'value' => $t('Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+    'value' => $t('<p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
 
-Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
 
-Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.'),
+<p>Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>'),
     'format' => 'basic_html',
   );
   $node->set('body', $node_body);
@@ -65,11 +65,11 @@ Completely synergize resource sucking relationships via premier niche markets. P
   // @todo: It would be great to just show this as full node rather than having
   // to do this "Read More" business. Blocked by http://drupal.org/node/1723126.
   $node_body = array(
-    'value' => $t('Welcome to a pre-release version of the <a href="@spark-project-url">Spark distribution</a>! This distribution ties together all of our current D8 core and contrib work into a single distribution to it off. Our goal is to greatly improve the authoring experience of Drupal, through a Drupal 7 distribution that can be used today, but can also be proposed as Drupal 8 core improvements for tomorrow. You can read more about it at <a href="@spark-announce-url">the official announcement</a> or at <a href="@spark-microsite-url">www.sparkdrupal.com</a>. Read on for more info!
+    'value' => $t('<p>Welcome to a pre-release version of the <a href="@spark-project-url">Spark distribution</a>! This distribution ties together all of our current D8 core and contrib work into a single distribution to it off. Our goal is to greatly improve the authoring experience of Drupal, through a Drupal 7 distribution that can be used today, but can also be proposed as Drupal 8 core improvements for tomorrow. You can read more about it at <a href="@spark-announce-url">the official announcement</a> or at <a href="@spark-microsite-url">www.sparkdrupal.com</a>. Read on for more info!</p>
 
-<img src="http://drupal.org/files/imagecache/grid-3/project-images/spark_logo.png" alt="Spark Logo" width="193" height="100" data-caption="The Spark logo, complete with a lovely image caption." data-align="right">
+<img src="http://drupal.org/files/imagecache/grid-3/project-images/spark_logo.png" alt="Spark Logo" style="float:right; height:100px; margin:20px; width:193px" />
 
-Here are the current features of Spark D8:
+<p>Here are the current features of Spark D8:</p>
 
 <ul>
   <li><strong>"True" WYSIWYG</strong>, courtesy of <a href="@aloha-url">Aloha Editor</a>. Just click "Edit" on this node to check it out. See http://drupal.org/node/1706688 for the "meta" issue on this, for ways in which you can help!</li>
@@ -77,7 +77,7 @@ Here are the current features of Spark D8:
   <li><strong>Mobile-friendly toolbar</strong> Hey, speaking of navigating, there\'s a new toolbar design from http://drupal.org/node/1137920, intended to work well with mobile browsers and desktops alike! Check it out. :)</li>
 </ul>
 
-We hope you enjoy playing with Spark! We greatly welcome collaboration; join us in the <a href="@spark-issues-url">issue queue</a>!', array(
+<p>We hope you enjoy playing with Spark! We greatly welcome collaboration; join us in the <a href="@spark-issues-url">issue queue</a></p>!', array(
   '@spark-project-url' => 'http://drupal.org/project/spark',
   '@spark-announce-url' => 'http://buytaert.net/announcing-spark-authoring-improvements-for-drupal-7-and-drupal-8',
   '@spark-microsite-url' => 'http://www.sparkdrupal.com/',
@@ -91,7 +91,7 @@ We hope you enjoy playing with Spark! We greatly welcome collaboration; join us 
   '@aloha-url' => 'http://aloha-editor.org/',
   '@admin-layout-url' => url('admin/structure/panels/layouts/list/default/edit'),
 )),
-    'format' => 'basic_html',
+    'format' => 'full_html',
   );
   $node->set('body', $node_body);
 
