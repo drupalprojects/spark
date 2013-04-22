@@ -5,8 +5,8 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Wed, 3 Apr 2013 11:41:59 +0000 (12:41 +0100)
-projects[drupal][download][revision] = e7d8f3682dcd5730844ad4a2c2b931cd279d1a59
+; Mon, 22 Apr 2013 12:06:28 +0000 (13:06 +0100)
+projects[drupal][download][revision] = 56021b509e28e0516c2e617f16d6f01b620bfec1
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -20,15 +20,13 @@ projects[drupal][download][branch] = 8.x
 
 ; OVERLAY
 ; Implement Seven style guide for core overlay
-projects[drupal][patch][1953374] = http://drupal.org/files/seventy-eight-overlay-restyle-14.patch
+projects[drupal][patch][1953374] = http://drupal.org/files/overlay-restyle-1953374-21.patch
 
 ; FORMS
 ; Introduce top-level sections for all forms (only applicable to some forms now)
-projects[drupal][patch][1880168] = http://drupal.org/files/block-sectioned-form-on-top-of-seventyeight-overlay-94.patch
+projects[drupal][patch][1880168] = http://drupal.org/files/block-sectioned-form-96.patch
 
 ; UNIFIED EDIT
-; Generalize the overlay tabbing management into a utility library
-projects[drupal][patch][1913086] = http://drupal.org/files/tabbing-1913086-22.patch
 ; Accessibility followup for Edit tab toggle of contextual links for in-place editing.
 projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-11.patch
 
@@ -37,4 +35,4 @@ projects[drupal][patch][1913214] = http://drupal.org/files/pencils-a11y-1913214-
 
 ; MOBILE PREVIEW
 ; Add a mobile preview bar to Drupal core
-projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-102.patch
+projects[drupal][patch][1741498] = http://drupal.org/files/mobile-preview-1741498-110.patch
