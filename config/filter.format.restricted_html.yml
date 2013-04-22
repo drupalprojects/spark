@@ -1,10 +1,9 @@
-format: filtered_html
-name: 'Filtered HTML'
+format: restricted_html
+name: 'Restricted HTML'
 status: '1'
 weight: '0'
 roles:
   - anonymous
-  - authenticated
 cache: '1'
 filters:
   filter_url:
@@ -13,14 +12,12 @@ filters:
   filter_html:
     module: filter
     status: '1'
-    settings:
-      allowed_html: '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <h4> <h5> <h6> <img>'
-      filter_html_help: '1'
-      filter_html_nofollow: '0'
+    setttings:
+      filter_html_nofollow: '1'
   filter_autop:
     module: filter
     status: '1'
   filter_htmlcorrector:
     module: filter
     status: '1'
-langcode: und
+langcode: en

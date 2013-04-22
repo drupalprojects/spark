@@ -18,4 +18,5 @@ label: 'Search'
 module: search
 region: sidebar_first
 weight: '-1'
-langcode: und
+langcode: en
+label_display: visible
