@@ -18,26 +18,29 @@ function spark_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
-  // Temporarily disable sample content creation until the code is fixed for node ng.
-  return;
-
   // Create an "About Us" page, for testing content links in Aloha.
   // @todo: It's really stupid we have to do this here instead of in spark_demo module,
   // but 'page' doesn't exist yet when spark_demo_install() runs. :(
   $t = get_t();
 
-  $node = entity_create('node', array());
-  $node->uid = 1;
-  $node->type = 'page';
-  $node->status = 1;
-  $node->langcode = 'en';
-  $node->title = $t('About Us');
-  $node->body['und'][0]['value'] = $t('Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+  $edit_node = array(
+    'nid' => NULL,
+    'type' => 'page',
+    'uid' => 1,
+    'status' => TRUE,
+    'langcode' => 'en',
+    'title' => $t('About Us'),
+  );
+  $node = entity_create('node', $edit_node);
+  $node_body = array(
+    'value' => $t('Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
 
 Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
 
-Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.');
-  $node->body['und'][0]['format'] = 'filtered_html';
+Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.'),
+    'format' => 'basic_html',
+  );
+  $node->set('body', $node_body);
   node_save($node);
 
   $menu_link = entity_create('menu_link', array(
@@ -48,18 +51,21 @@ Completely synergize resource sucking relationships via premier niche markets. P
   $menu_link->save();
 
   // Create a new 'article' node for testing editing.
-  $node = entity_create('node', array());
-  $node->uid = 1;
-  $node->type = 'article';
-  $node->langcode = 'en';
-  $node->status = 1;
-  $node->promote = 1;
+  $edit_node = array(
+    'nid' => NULL,
+    'type' => 'article',
+    'uid' => 1,
+    'status' => TRUE,
+    'promote' => TRUE,
+    'langcode' => 'en',
+    'title' => $t('Welcome to Spark!'),
+  );
+  $node = entity_create('node', $edit_node);
 
-  // Title and body.
   // @todo: It would be great to just show this as full node rather than having
   // to do this "Read More" business. Blocked by http://drupal.org/node/1723126.
-  $node->title = $t('Welcome to Spark!');
-  $node->body['und'][0]['value'] = $t('Welcome to a pre-release version of the <a href="@spark-project-url">Spark distribution</a>! This distribution ties together all of our current D8 core and contrib work into a single distribution to it off. Our goal is to greatly improve the authoring experience of Drupal, through a Drupal 7 distribution that can be used today, but can also be proposed as Drupal 8 core improvements for tomorrow. You can read more about it at <a href="@spark-announce-url">the official announcement</a> or at <a href="@spark-microsite-url">www.sparkdrupal.com</a>. Read on for more info!
+  $node_body = array(
+    'value' => $t('Welcome to a pre-release version of the <a href="@spark-project-url">Spark distribution</a>! This distribution ties together all of our current D8 core and contrib work into a single distribution to it off. Our goal is to greatly improve the authoring experience of Drupal, through a Drupal 7 distribution that can be used today, but can also be proposed as Drupal 8 core improvements for tomorrow. You can read more about it at <a href="@spark-announce-url">the official announcement</a> or at <a href="@spark-microsite-url">www.sparkdrupal.com</a>. Read on for more info!
 
 <img src="http://drupal.org/files/imagecache/grid-3/project-images/spark_logo.png" alt="Spark Logo" width="193" height="100" data-caption="The Spark logo, complete with a lovely image caption." data-align="right">
 
@@ -84,30 +90,23 @@ We hope you enjoy playing with Spark! We greatly welcome collaboration; join us 
   '@theme-ember-url' => 'http://drupal.org/project/ember',
   '@aloha-url' => 'http://aloha-editor.org/',
   '@admin-layout-url' => url('admin/structure/panels/layouts/list/default/edit'),
-));
-  $node->body['und'][0]['format'] = 'filtered_html';
-
-  // Taxonomy.
-  $node->field_tags['und'] = array(
-    array(
-      'tid' => 'autocreate',
-      'vid' => 1,
-      'name' => 'tag 1',
-      'vocabulary_machine_name' => 'tags',
-    ),
-    array(
-      'tid' => 'autocreate',
-      'vid' => 1,
-      'name' => 'another tag',
-      'vocabulary_machine_name' => 'tags',
-    ),
-    array(
-      'tid' => 'autocreate',
-      'vid' => 1,
-      'name' => 'yet another tag',
-      'vocabulary_machine_name' => 'tags',
-    ),
+)),
+    'format' => 'basic_html',
   );
+  $node->set('body', $node_body);
+
+  $terms = array();
+  foreach (array('tag 1', 'another tag', 'yet another tag') as $name) {
+    $term_values = array(
+      'vocabulary_machine_name' => 'tags',
+      'vid' => 'tags',
+      'name' => $name,
+    );
+    $term = entity_create('taxonomy_term', $term_values);
+    taxonomy_term_save($term);
+    $terms[] = $term->tid;
+  }
+  $node->set('field_tags', $terms);
 
   node_save($node);
 }
