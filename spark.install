@@ -103,7 +103,7 @@ function spark_install() {
       'name' => $name,
     );
     $term = entity_create('taxonomy_term', $term_values);
-    taxonomy_term_save($term);
+    $term->save();
     $terms[] = $term->tid;
   }
   $node->set('field_tags', $terms);
