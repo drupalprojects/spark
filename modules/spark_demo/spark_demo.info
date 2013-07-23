@@ -1,4 +1,0 @@
-name = Spark Demo
-description = Demo content for the Spark distribution.
-core = 8.x
-package = Spark
