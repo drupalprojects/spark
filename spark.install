@@ -39,7 +39,7 @@ function spark_install() {
     'format' => 'basic_html',
   );
   $node->set('body', $node_body);
-  node_save($node);
+  $node->save();
 
   $menu_link = entity_create('menu_link', array(
      'link_title' => t('About us'),
@@ -105,6 +105,5 @@ function spark_install() {
     $terms[] = $term->tid;
   }
   $node->set('field_tags', $terms);
-
-  node_save($node);
+  $node->save();
 }
