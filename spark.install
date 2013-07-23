@@ -21,15 +21,6 @@ function spark_install() {
   // Create an "About Us" page, for testing content links in Aloha.
   // @todo: It's really stupid we have to do this here instead of in spark_demo module,
   // but 'page' doesn't exist yet when spark_demo_install() runs. :(
-  $edit_node = array(
-    'nid' => NULL,
-    'type' => 'page',
-    'uid' => 1,
-    'status' => TRUE,
-    'langcode' => 'en',
-    'title' => t('About Us'),
-  );
-  $node = entity_create('node', $edit_node);
   $node_body = array(
     'value' => t('<p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
 
@@ -38,7 +29,16 @@ function spark_install() {
 <p>Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>'),
     'format' => 'basic_html',
   );
-  $node->set('body', $node_body);
+  $edit_node = array(
+    'nid' => NULL,
+    'type' => 'page',
+    'uid' => 1,
+    'status' => TRUE,
+    'langcode' => 'en',
+    'title' => t('About Us'),
+    'body' => array($node_body),
+  );
+  $node = entity_create('node', $edit_node);
   $node->save();
 
   $menu_link = entity_create('menu_link', array(
@@ -49,17 +49,6 @@ function spark_install() {
   $menu_link->save();
 
   // Create a new 'article' node for testing editing.
-  $edit_node = array(
-    'nid' => NULL,
-    'type' => 'article',
-    'uid' => 1,
-    'status' => TRUE,
-    'promote' => TRUE,
-    'langcode' => 'en',
-    'title' => t('Welcome to Spark!'),
-  );
-  $node = entity_create('node', $edit_node);
-
   // @todo: It would be great to just show this as full node rather than having
   // to do this "Read More" business. Blocked by http://drupal.org/node/1723126.
   $node_body = array(
@@ -91,7 +80,17 @@ function spark_install() {
 )),
     'format' => 'full_html',
   );
-  $node->set('body', $node_body);
+  $edit_node = array(
+    'nid' => NULL,
+    'type' => 'article',
+    'uid' => 1,
+    'status' => TRUE,
+    'promote' => TRUE,
+    'langcode' => 'en',
+    'title' => t('Welcome to Spark!'),
+    'body' => array($node_body),
+  );
+  $node = entity_create('node', $edit_node);
 
   $terms = array();
   foreach (array('tag 1', 'another tag', 'yet another tag') as $name) {
