@@ -5,8 +5,8 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Tue, 23 Jul 2013 08:48:19 +0000 (09:48 +0100)
-projects[drupal][download][revision] = 88cbedb8e8a6e79a5f2a81eb0018a945744ef0b1
+; July 24, 2013 11:47 AM
+projects[drupal][download][revision] = a09093be777af1354761cb8dea1525ef260dc36d
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
