@@ -26,4 +26,4 @@ projects[drupal][download][branch] = 8.x
 
 ; MOBILE PREVIEW
 ; Add a mobile preview bar to Drupal core
-projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-204.patch
+projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-210.patch
