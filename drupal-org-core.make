@@ -5,8 +5,8 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; July 24, 2013 11:47 AM
-projects[drupal][download][revision] = a09093be777af1354761cb8dea1525ef260dc36d
+; Mon, 19 Aug 2013 14:38:31 +0000 (15:38 +0100)
+projects[drupal][download][revision] = 979f8348b6d1f83f936d579d0fd196b1e350c516
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -26,4 +26,4 @@ projects[drupal][download][branch] = 8.x
 
 ; MOBILE PREVIEW
 ; Add a mobile preview bar to Drupal core
-projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-210.patch
+projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-254.patch
