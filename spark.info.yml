@@ -26,7 +26,6 @@ dependencies:
   - edit
   - help
   - image
-  - layout
   - menu
   - number
   - options
