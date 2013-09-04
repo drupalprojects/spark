@@ -5,8 +5,8 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-; Mon, 19 Aug 2013 14:38:31 +0000 (15:38 +0100)
-projects[drupal][download][revision] = 979f8348b6d1f83f936d579d0fd196b1e350c516
+; Wed, 4 Sep 2013 11:09:19 +0000 (12:09 +0100) (tagged alpha3)
+projects[drupal][download][revision] = 970fdb9e479f15291a9b54ea429c68e1b621607a
 projects[drupal][download][branch] = 8.x
 
 ; CORE PATCHES
@@ -25,5 +25,5 @@ projects[drupal][download][branch] = 8.x
 ; None currently :)
 
 ; MOBILE PREVIEW
-; Add a mobile preview bar to Drupal core
-projects[drupal][patch][1741498] = https://drupal.org/files/mobile-preview-1741498-254.patch
+; Add a responsive preview bar to Drupal core
+projects[drupal][patch][1741498] = https://drupal.org/files/responsive-preview-1741498-259.patch
