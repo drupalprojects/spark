@@ -26,4 +26,4 @@ projects[drupal][download][branch] = 8.x
 
 ; MOBILE PREVIEW
 ; Add a responsive preview bar to Drupal core
-projects[drupal][patch][1741498] = https://drupal.org/files/responsive-preview-1741498-259.patch
+projects[drupal][patch][1741498] = https://drupal.org/files/responsive-preview-1741498-270-against-alpha3.patch
