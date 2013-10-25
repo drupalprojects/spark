@@ -1,13 +1,15 @@
-id: bartik.footer
+id: bartik_help
+theme: bartik
+uuid: 6ea8e05a-6793-4ecf-8801-015dc6e1013e
 weight: '0'
 status: '1'
 langcode: en
-region: footer
-plugin: 'system_menu_block:menu-footer'
+region: help
+plugin: system_help_block
 settings:
-  label: 'Footer menu'
+  label: 'System Help'
   module: system
-  label_display: visible
+  label_display: '0'
   cache: '-1'
 visibility:
   path:

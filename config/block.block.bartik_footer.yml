@@ -1,13 +1,15 @@
-id: seven.help
+id: bartik_footer
+theme: bartik
+uuid: a6c75fc2-5ca1-403e-ab37-557c7244e8c0
 weight: '0'
 status: '1'
 langcode: en
-region: help
-plugin: system_help_block
+region: footer
+plugin: 'system_menu_block:footer'
 settings:
-  label: 'System Help'
+  label: 'Footer menu'
   module: system
-  label_display: '0'
+  label_display: visible
   cache: '-1'
 visibility:
   path:

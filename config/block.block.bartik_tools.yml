@@ -1,9 +1,11 @@
-id: bartik.tools
+id: bartik_tools
+theme: bartik
+uuid: 0dca3209-c6fa-4043-a407-7afb952cfc5e
 weight: '0'
 status: '1'
 langcode: en
 region: sidebar_first
-plugin: 'system_menu_block:menu-tools'
+plugin: 'system_menu_block:tools'
 settings:
   label: Tools
   module: system

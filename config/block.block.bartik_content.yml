@@ -1,13 +1,15 @@
-id: bartik.search
-weight: '-1'
+id: bartik_content
+theme: bartik
+uuid: 2cab5a0c-de08-4b5c-9700-f0243a6fb000
+weight: '0'
 status: '1'
 langcode: en
-region: sidebar_first
-plugin: search_form_block
+region: content
+plugin: system_main_block
 settings:
-  label: Search
-  module: search
-  label_display: visible
+  label: 'Main page content'
+  module: system
+  label_display: '0'
   cache: '-1'
 visibility:
   path:

@@ -1,13 +1,15 @@
-id: bartik.powered
+id: seven_login
+theme: seven
+uuid: 10a9888b-2247-408d-9702-2c0cc9cacba2
 weight: '10'
 status: '1'
 langcode: en
-region: footer
-plugin: system_powered_by_block
+region: content
+plugin: user_login_block
 settings:
-  label: 'Powered by Drupal'
-  module: system
-  label_display: '0'
+  label: 'User login'
+  module: user
+  label_display: visible
   cache: '-1'
 visibility:
   path:
@@ -20,3 +22,4 @@ visibility:
       article: '0'
       page: '0'
   visibility__active_tab: edit-visibility-path
+
