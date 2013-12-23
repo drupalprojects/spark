@@ -121,7 +121,7 @@ libraries[json2][download][url] = https://raw.github.com/douglascrockford/JSON-j
 libraries[json2][revision] = fc535e9cc8fa78bbf45a85835c830e7f799a5084
 
 libraries[underscore][download][type] = get
-libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.5.2.zip
+libraries[underscore][download][url] = https://github.io/documentcloud/underscore/archive/1.5.2.zip
 
 libraries[backbone][download][type] = get
-libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.1.0.zip
+libraries[backbone][download][url] = https://github.io/documentcloud/backbone/archive/1.1.0.zip
