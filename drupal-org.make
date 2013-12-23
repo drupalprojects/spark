@@ -9,7 +9,7 @@ core = 7.x
 
 projects[responsive_bartik][type] = theme
 ; @todo Replace with responsive_bartik 7.x-1.0-beta3 when that's available.
-projects[responsive_bartik][version] = 2.x-dev
+projects[responsive_bartik][version] = 1.x-dev
 projects[responsive_bartik][subdir] = contrib
 
 projects[ctools][type] = module
