@@ -15,7 +15,7 @@ projects[responsive_bartik][subdir] = contrib
 projects[ctools][type] = module
 projects[ctools][version] = 1.3
 projects[ctools][subdir] = contrib
-; Adding a renderable-array block to a page gives errors in the admin UI. 
+; Adding a renderable-array block to a page gives errors in the admin UI.
 ; @todo remove with ctools upgrade to 1.4.
 projects[ctools][patch][1925018] = "http://drupal.org/files/ctools-1925018-61.patch"
 
@@ -126,3 +126,6 @@ libraries[underscore][download][url] = https://github.com/jashkenas/underscore/a
 
 libraries[backbone][download][type] = get
 libraries[backbone][download][url] = https://github.com/jashkenas/backbone/archive/1.1.0.zip
+
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.7.0.tar.gz"
