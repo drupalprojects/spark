@@ -63,9 +63,9 @@ projects[breakpoints][version] = 1.1
 projects[breakpoints][subdir] = contrib
 
 projects[navbar][type] = module
-projects[navbar][version] = 1.0-beta1
-;projects[navbar][download][type] = git
-;projects[navbar][download][branch] = 7.x-1.x
+;projects[navbar][version] = 1.0-beta1
+projects[navbar][download][type] = git
+projects[navbar][download][branch] = 7.x-1.x
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
@@ -105,7 +105,7 @@ projects[responsive_preview][subdir] = contrib
 
 ; Contributed modules; UX++
 projects[module_filter][type] = module
-projects[module_filter][version] = 1.8 
+projects[module_filter][version] = 1.8
 projects[module_filter][subdir] = contrib
 
 projects[simplified_menu_admin][type] = module
