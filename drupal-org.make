@@ -115,7 +115,7 @@ projects[simplified_menu_admin][subdir] = contrib
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.zip
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_full.tar.gz
 
 libraries[json2][download][type] = get
 libraries[json2][download][url] = https://raw.github.com/douglascrockford/JSON-js/master/json2.js
