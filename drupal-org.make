@@ -44,6 +44,8 @@ projects[panels][subdir] = contrib
 projects[panels][patch][] = "http://drupal.org/files/layout-settings-submit.patch"
 ; Fix for strict warning on home page.
 projects[panels][patch][1632898] = "http://drupal.org/files/1632898-10.patch"
+; Impossible to set attributes on Panels panes
+projects[panels][patch][2169571] = "https://drupal.org/files/issues/panels_pane_template_attributes-2169571-1.patch"
 
 projects[picture][type] = module
 projects[picture][version] = 1.2
@@ -69,9 +71,7 @@ projects[navbar][version] = 1.0-beta2
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-projects[edit][version] = 1.0-beta1
-;projects[edit][download][type] = git
-;projects[edit][download][branch] = 7.x-1.x
+projects[edit][version] = 1.0-rc1
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
