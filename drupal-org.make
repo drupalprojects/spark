@@ -69,12 +69,8 @@ projects[navbar][version] = 1.4
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-;projects[edit][version] = 1.0-rc2
+projects[edit][version] = 1.0
 projects[edit][subdir] = contrib
-; Temporarily using RC2+2 commits. Necessary to fix a status report bug: https://drupal.org/node/2180669.
-projects[edit][download][type] = "git"
-projects[edit][download][branch] = "7.x-1.x"
-projects[edit][download][revision] = "5b286e8a91d03d6ab34b3ff9ff635c523d54a2ec"
 
 projects[ember][type] = theme
 projects[ember][version] = 2.0-alpha1
