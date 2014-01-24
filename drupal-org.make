@@ -71,7 +71,7 @@ projects[navbar][version] = 1.0-beta2
 projects[navbar][subdir] = contrib
 
 projects[edit][type] = module
-projects[edit][version] = 1.0-rc1
+projects[edit][version] = 1.0-rc2
 projects[edit][subdir] = contrib
 
 projects[ember][type] = theme
@@ -115,7 +115,7 @@ projects[simplified_menu_admin][subdir] = contrib
 ; Libraries.
 ; NOTE: These need to be listed in http://drupal.org/packaging-whitelist.
 libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.3/ckeditor_4.2.3_standard.tar.gz
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor%20for%20Drupal/edit/ckeditor_4.3.2_edit.zip
 
 libraries[json2][download][type] = get
 libraries[json2][download][url] = https://raw.github.com/douglascrockford/JSON-js/master/json2.js
